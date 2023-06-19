@@ -4,13 +4,13 @@
   place-self: center;
   margin: 0;
   padding: 0;
-  color: #fff;
   border: 1px solid red;
 }
 
 body {
   display: flex;
   flex-direction: column;
+  color: #fff;
 }
 body .social-btns {
   display: inline-flex;
@@ -37,6 +37,7 @@ body header #home {
   padding: 16px;
   gap: 16px;
   text-decoration: none;
+  color: #fff;
 }
 body header #home .logo-top {
   letter-spacing: 0.09em;
@@ -53,6 +54,17 @@ body main #hero {
   display: flex;
   flex-direction: column;
 }
+body main #hero .heroBtn {
+  color: #fff;
+  text-decoration: none;
+  padding: 16px 24px;
+  gap: 10px;
+  font-size: 2rem;
+  width: 263px;
+  height: 71px;
+  border: 4px solid #FFFFFF;
+  border-radius: 999px;
+}
 body main .hero-info {
   display: flex;
   flex-direction: row;
@@ -66,6 +78,47 @@ body main #about {
 body main #about .aboutText {
   display: flex;
   flex-direction: column;
+}
+body main #eventos {
+  color: #2946BF;
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0;
+}
+body main #eventos span {
+  display: flex;
+  flex-direction: row;
+}
+body main #eventos .eventoCard {
+  display: flex;
+  flex-direction: column;
+}
+body main #about2 {
+  display: flex;
+  flex-direction: row;
+  background: #FCFF6D;
+}
+body main #about2 .aboutText {
+  color: #2946BF !important;
+  display: flex;
+  flex-direction: column;
+}
+body main #gallery {
+  color: #2946BF;
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0;
+}
+body main #gallery span {
+  display: flex;
+  flex-direction: row;
+}
+body main #gallery .eventoCard {
+  display: flex;
+  flex-direction: column;
+}
+body main #gallery .galeriaText {
+  margin: 1rem;
 }
 body footer {
   display: flex;
