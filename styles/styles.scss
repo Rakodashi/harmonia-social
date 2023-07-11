@@ -70,13 +70,13 @@ html, body {
       url('../images/image_10.png');
       background-repeat: no-repeat;
       background-position: center;
-      background-size: contain;
+      background-size: cover;
     }
     .hero-info {
       display: flex;
       flex-direction: row;
       color: #fff;
-      margin-top: 30rem;
+      margin-top: 35rem;
       margin-left: 2rem;
       margin-right: 2rem;
 
