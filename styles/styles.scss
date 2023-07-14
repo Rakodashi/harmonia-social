@@ -5,14 +5,13 @@
   margin: 0;
   padding: 0;
 
-  border: 1px solid red;
+  // border: 1px solid red;
 }
 
 html, body {
   color: #fff;
-  height: 100%;
-  // display: flex;
-  // flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
   .blue {
     color: #2946BF;
@@ -35,8 +34,9 @@ html, body {
     height: 9.375rem;
     background: #2946BF;
     justify-content: space-between;
-    // position: sticky;
-    // top: 0;
+    width: 100vw;
+    position: sticky;
+    top: 0;
 
     #home {
       display: flex;
@@ -76,22 +76,26 @@ html, body {
       display: flex;
       flex-direction: row;
       color: #fff;
-      margin-top: 35rem;
+      margin-top: 36rem;
       margin-left: 2rem;
       margin-right: 2rem;
+      width: 100vw;
 
       h1 {
-        margin: 3rem 0;
+        margin: 3rem 1rem;
       }
       p {
-        margin: 2rem 0;
+        margin: 2rem 1rem;
         font-size: 1.5rem;
+      }
+      .gradientDiv {
+        margin: 0 auto 2rem 2rem;
       }
     }
     .heroBtn {
         color: #fff;
         text-decoration: none;
-        margin: 0 2rem;
+        margin: 0 2rem 0 2rem;
         padding: 0.6rem;
         font-size: 2rem;
         display: flex;
@@ -115,11 +119,16 @@ html, body {
         }
       }
       #eventos {
-        // display: flex;
+        display: flex;
         flex-direction: column;
-        margin: 5rem 4rem;
+        margin: 5rem 6rem;
         h1 {
-          margin: 2rem 0;
+          // margin: 2rem 0;
+          margin: 2rem auto 2rem 5rem;
+        }
+        p {
+          padding: 1rem 0;
+          font-size: 1.2rem;
         }
         span {
           display: flex;
@@ -143,13 +152,13 @@ html, body {
       #gallery {
         display: flex;
         flex-direction: column;
-        margin: 3rem 0;
-        h1 {
-          margin: 2rem 0;
+        // margin: 5rem 5rem;
+        
+        h1, p {
+          margin: 2rem auto 2rem 5rem;
         }
         span {
           display: flex;
-          flex-direction: row;
           gap: 4rem;
         }
         .eventoCard {
@@ -157,7 +166,8 @@ html, body {
           flex-direction: column;
         }
         .galeriaText {
-          margin: 1rem;
+          // margin: 1rem;
+          margin: 2rem auto 2rem 0;
         }
       }
   }
@@ -165,6 +175,7 @@ html, body {
   footer {
     display: flex;
     flex-direction: row;
+    width: 100vw;
     height: 9.375rem;
     background: #2946BF;
     justify-content: space-between;
@@ -188,4 +199,7 @@ html, body {
   }
 }
 
-@media screen and (min-width: 768px) {} 
+// @media screen and (min-width: 768px) {} 
+@media screen and (min-width: 350px) {} //phone
+@media screen and (min-width: 700px) {} //tablet
+@media screen and (min-width: 1100px) {} //desktop
