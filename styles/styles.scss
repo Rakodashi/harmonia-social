@@ -10,8 +10,8 @@
 html, body {
   background-color: grey;
   color: #fff;
-  // display: flex;
-  // flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
   .blue {
     color: #2946BF;
@@ -33,6 +33,15 @@ html, body {
         width: 100%;
         height: auto;
       }
+    }
+    .hero-gradient {
+      display: flex;
+      flex-direction: column;
+      background: linear-gradient(0deg, rgba(0,0,0,1) 10%, rgba(0,0,0,0.5) 30%, rgba(255,255,255,0) 50%),
+      url('../images/image_10.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
     }
   }
   footer {
@@ -106,6 +115,45 @@ html, body {
       }
     }
   }
+  main {
+    .hero-info {
+      display: flex;
+      flex-direction: row;
+      color: #fff;
+      // margin-top: 36rem;
+      // margin-left: 2rem;
+      // margin-right: 2rem;
+      width: 100vw;
+
+      h1 {
+        // margin: 3rem 1rem;
+      }
+      p {
+        // margin: 2rem 1rem;
+        // font-size: 1.5rem;
+      }
+      .gradientDiv {
+        // margin: 0 auto 2rem 2rem;
+      }
+    }
+    .heroBtn {
+        color: #fff;
+        text-decoration: none;
+        // margin: 0 2rem 0 2rem;
+        padding: 0.6rem;
+        // font-size: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        // width: 16.4rem;
+        // height: 4.5rem;
+
+        border: 4px solid #FFFFFF;
+        border-radius: 999px;
+      }
+  }
   footer {
     padding: .5rem;
     height: 4rem;
@@ -154,8 +202,11 @@ html, body {
     .social-btns {
       margin: auto 3rem;
       display: inline-flex;
-      font-size: 1rem;
+      // font-size: 1rem;
       gap: .5rem;
+      img {
+        width: 3rem;
+      }
     }
   
   
@@ -163,6 +214,7 @@ html, body {
       // display: flex;
       // flex-direction: row;
       height: 9.375rem;
+      // height: 8rem;
       // background: #2946BF;
       // justify-content: space-between;
       // width: 100vw;
@@ -199,15 +251,15 @@ html, body {
       //     height: auto;
       //   }
       // }
-      .hero-gradient {
-        display: flex;
-        flex-direction: column;
-        background: linear-gradient(0deg, rgba(0,0,0,1) 10%, rgba(0,0,0,0.5) 30%, rgba(255,255,255,0) 50%),
-        url('../images/image_10.png');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-      }
+      // .hero-gradient {
+      //   display: flex;
+      //   flex-direction: column;
+      //   background: linear-gradient(0deg, rgba(0,0,0,1) 10%, rgba(0,0,0,0.5) 30%, rgba(255,255,255,0) 50%),
+      //   url('../images/image_10.png');
+      //   background-repeat: no-repeat;
+      //   background-position: center;
+      //   background-size: cover;
+      // }
       .hero-info {
         display: flex;
         flex-direction: row;

@@ -9,6 +9,8 @@
 html, body {
   background-color: grey;
   color: #fff;
+  display: flex;
+  flex-direction: column;
 }
 html .blue, body .blue {
   color: #2946BF;
@@ -25,6 +27,14 @@ html header, body header {
 html main section img, body main section img {
   width: 100%;
   height: auto;
+}
+html main .hero-gradient, body main .hero-gradient {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(0deg, rgb(0, 0, 0) 10%, rgba(0, 0, 0, 0.5) 30%, rgba(255, 255, 255, 0) 50%), url("../images/image_10.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 html footer, body footer {
   display: flex;
@@ -62,6 +72,23 @@ html footer, body footer {
     font-weight: 700;
     margin: 0 0 0 0.3rem;
   }
+  main .hero-info {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    width: 100vw;
+  }
+  main .heroBtn {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 4px solid #FFFFFF;
+    border-radius: 999px;
+  }
   footer {
     padding: 0.5rem;
     height: 4rem;
@@ -93,8 +120,10 @@ html footer, body footer {
   html .social-btns, body .social-btns {
     margin: auto 3rem;
     display: inline-flex;
-    font-size: 1rem;
     gap: 0.5rem;
+  }
+  html .social-btns img, body .social-btns img {
+    width: 3rem;
   }
   html header, body header {
     height: 9.375rem;
@@ -118,14 +147,6 @@ html footer, body footer {
     letter-spacing: 0.09em;
     font-weight: 700;
     margin: 0 1rem;
-  }
-  html main .hero-gradient, body main .hero-gradient {
-    display: flex;
-    flex-direction: column;
-    background: linear-gradient(0deg, rgb(0, 0, 0) 10%, rgba(0, 0, 0, 0.5) 30%, rgba(255, 255, 255, 0) 50%), url("../images/image_10.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
   }
   html main .hero-info, body main .hero-info {
     display: flex;
