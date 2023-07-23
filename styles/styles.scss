@@ -43,6 +43,15 @@ html, body {
       background-position: center;
       background-size: cover;
     }
+    #about {
+      display: flex;
+      flex-direction: row;
+      background: #00BF63;
+
+      // .aboutText, h1, p {
+      //   margin: 2rem;
+      // }
+    }
   }
   footer {
     display: flex;
@@ -116,6 +125,17 @@ html, body {
     }
   }
   main {
+    h1 {
+      font-size: 1rem;
+    }
+    p {
+      font-size: .3rem;
+    }
+    section {
+      img {
+        width: 40% !important;
+      }
+    }
     .hero-info {
       display: flex;
       flex-direction: row;
@@ -152,6 +172,24 @@ html, body {
 
         border: 4px solid #FFFFFF;
         border-radius: 999px;
+      }
+      #about {
+        // display: flex;
+        // flex-direction: row;
+        // background: #00BF63;
+
+        .aboutText, h1, p {
+          margin: .3rem;
+        }
+        // h1 {
+        //   font-size: 1rem;
+        // }
+        // p {
+        //   font-size: .3rem;
+        // }
+        // img {
+        //   width: 40%;
+        // }
       }
   }
   footer {
@@ -199,6 +237,15 @@ html, body {
     h1 {
       font-size: 2rem;
     }
+    p {
+      font-size: 1rem;
+    }
+    section {
+      img {
+        width: 100% !important;
+      }
+    }
+
     .social-btns {
       margin: auto 3rem;
       display: inline-flex;
@@ -298,13 +345,19 @@ html, body {
           border-radius: 999px;
         }
         #about {
-          display: flex;
-          flex-direction: row;
-          background: #00BF63;
+          // display: flex;
+          // flex-direction: row;
+          // background: #00BF63;
   
           .aboutText, h1, p {
             margin: 2rem;
           }
+          // h1 {
+          //   font-size: 2rem;
+          // }
+          // p {
+          //   font-size: 1rem;
+          // }
         }
         #eventos {
           display: flex;
