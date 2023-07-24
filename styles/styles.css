@@ -41,6 +41,11 @@ html main #about, body main #about {
   flex-direction: row;
   background: #00BF63;
 }
+html main #eventos, body main #eventos {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem 6rem;
+}
 html footer, body footer {
   display: flex;
   flex-direction: row;
@@ -90,17 +95,29 @@ html footer, body footer {
     display: flex;
     flex-direction: row;
     color: #fff;
+    margin-top: 5rem;
     width: 100vw;
+  }
+  main .hero-info h1 {
+    margin: 0.5rem 0.25rem;
+  }
+  main .hero-info p {
+    margin: 0.5rem 0.25rem;
+    font-size: 0.5rem;
   }
   main .heroBtn {
     color: #fff;
     text-decoration: none;
+    margin: 0 0.8rem 0 0.2rem;
     padding: 0.6rem;
+    font-size: 0.4rem;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: 4px solid #FFFFFF;
+    width: 6rem;
+    height: 0.2rem;
+    border: 2px solid #FFFFFF;
     border-radius: 999px;
   }
   main #about .aboutText, main #about h1, main #about p {
@@ -193,7 +210,7 @@ html footer, body footer {
   html main .heroBtn, body main .heroBtn {
     color: #fff;
     text-decoration: none;
-    margin: 0 2rem 0 2rem;
+    margin: 0 3rem 0 1rem;
     padding: 0.6rem;
     font-size: 2rem;
     display: flex;
