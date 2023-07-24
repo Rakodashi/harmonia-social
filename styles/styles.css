@@ -7,7 +7,6 @@
 }
 
 html, body {
-  background-color: grey;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -20,7 +19,7 @@ html header, body header {
   flex-direction: row;
   background: #2946BF;
   justify-content: space-between;
-  width: 100vw;
+  width: 100%;
   position: sticky;
   top: 0;
 }
@@ -44,12 +43,35 @@ html main #about, body main #about {
 html main #eventos, body main #eventos {
   display: flex;
   flex-direction: column;
-  margin: 5rem 6rem;
+}
+html main #eventos span, body main #eventos span {
+  display: flex;
+  flex-direction: row;
+}
+html main #eventos .eventoCard, body main #eventos .eventoCard {
+  display: flex;
+  flex-direction: column;
+}
+html main #about2, body main #about2 {
+  display: flex;
+  flex-direction: row;
+  background: #FCFF6D;
+}
+html main #gallery, body main #gallery {
+  display: flex;
+  flex-direction: column;
+}
+html main #gallery span, body main #gallery span {
+  display: flex;
+}
+html main #gallery .eventoCard, body main #gallery .eventoCard {
+  display: flex;
+  flex-direction: column;
 }
 html footer, body footer {
   display: flex;
   flex-direction: row;
-  width: 100vw;
+  width: 100%;
   background: #2946BF;
   justify-content: space-between;
 }
@@ -86,7 +108,7 @@ html footer, body footer {
     font-size: 1rem;
   }
   main p {
-    font-size: 0.3rem;
+    font-size: 0.4rem;
   }
   main section img {
     width: 40% !important;
@@ -95,7 +117,7 @@ html footer, body footer {
     display: flex;
     flex-direction: row;
     color: #fff;
-    margin-top: 5rem;
+    margin-top: 8rem;
     width: 100vw;
   }
   main .hero-info h1 {
@@ -122,6 +144,27 @@ html footer, body footer {
   }
   main #about .aboutText, main #about h1, main #about p {
     margin: 0.3rem;
+  }
+  main #eventos h1 {
+    margin: 1rem auto 1rem 2.5rem;
+  }
+  main #eventos p {
+    padding: 0.2rem 0;
+  }
+  main #eventos span {
+    gap: 0.5rem;
+  }
+  main #about2 .aboutText, main #about2 h1, main #about2 p {
+    margin: 0.3rem;
+  }
+  main #gallery h1, main #gallery p {
+    margin: 0.5rem auto 0.5rem 1rem;
+  }
+  main #gallery span {
+    gap: 0.5rem;
+  }
+  main #gallery .galeriaText {
+    margin: 1rem auto 1rem 0;
   }
   footer {
     padding: 0.5rem;
@@ -226,8 +269,6 @@ html footer, body footer {
     margin: 2rem;
   }
   html main #eventos, body main #eventos {
-    display: flex;
-    flex-direction: column;
     margin: 5rem 6rem;
   }
   html main #eventos h1, body main #eventos h1 {
@@ -238,36 +279,16 @@ html footer, body footer {
     font-size: 1.2rem;
   }
   html main #eventos span, body main #eventos span {
-    display: flex;
-    flex-direction: row;
     gap: 2rem;
-  }
-  html main #eventos .eventoCard, body main #eventos .eventoCard {
-    display: flex;
-    flex-direction: column;
-  }
-  html main #about2, body main #about2 {
-    display: flex;
-    flex-direction: row;
-    background: #FCFF6D;
   }
   html main #about2 .aboutText, html main #about2 h1, html main #about2 p, body main #about2 .aboutText, body main #about2 h1, body main #about2 p {
     margin: 2rem;
-  }
-  html main #gallery, body main #gallery {
-    display: flex;
-    flex-direction: column;
   }
   html main #gallery h1, html main #gallery p, body main #gallery h1, body main #gallery p {
     margin: 2rem auto 2rem 5rem;
   }
   html main #gallery span, body main #gallery span {
-    display: flex;
     gap: 4rem;
-  }
-  html main #gallery .eventoCard, body main #gallery .eventoCard {
-    display: flex;
-    flex-direction: column;
   }
   html main #gallery .galeriaText, body main #gallery .galeriaText {
     margin: 2rem auto 2rem 0;
@@ -275,7 +296,6 @@ html footer, body footer {
   html footer, body footer {
     display: flex;
     flex-direction: row;
-    width: 100vw;
     height: 9.375rem;
     background: #2946BF;
     justify-content: space-between;
