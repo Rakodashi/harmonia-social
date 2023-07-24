@@ -138,7 +138,7 @@ html, body {
   }
 
   header {
-    padding: .5rem;
+    padding: .3rem;
     height: 4rem;
 
     #home {
@@ -241,11 +241,14 @@ html, body {
       }
       #gallery {
         // margin: 5rem 5rem;
+        img {
+          width: 100% !important;
+        }
         h1, p {
           margin: .5rem auto .5rem 1rem;
         }
         span {
-          gap: .5rem;
+          gap: .3rem;
         }
         .galeriaText {
           margin: 1rem auto 1rem 0;
@@ -253,7 +256,7 @@ html, body {
       }
   }
   footer {
-    padding: .5rem;
+    padding: .3rem;
     height: 4rem;
 
     #footer-logo {
