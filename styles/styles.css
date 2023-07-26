@@ -78,7 +78,7 @@ html footer, body footer {
 
 @media screen and (min-width: 350px) {
   .social-btns img {
-    width: 1.2rem;
+    width: 1.4rem;
   }
   header {
     padding: 0.3rem;
@@ -130,14 +130,14 @@ html footer, body footer {
   main .heroBtn {
     color: #fff;
     text-decoration: none;
-    margin: 0 0.8rem 0 0.2rem;
-    padding: 0.6rem;
-    font-size: 0.4rem;
+    margin: 0 0.6rem 0 0.2rem;
+    padding: 0.6rem 0.2rem;
+    font-size: 0.6rem;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 6rem;
+    width: 8rem;
     height: 0.2rem;
     border: 2px solid #FFFFFF;
     border-radius: 999px;
