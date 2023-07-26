@@ -221,7 +221,7 @@ html, body {
         }
       }
       #eventos {
-        // margin: 2rem 3rem;
+        margin: .5rem 1rem;
         h1 {
           // margin: 7rem 0;
           margin: 1rem auto 1rem 2.5rem;
@@ -229,6 +229,9 @@ html, body {
         p {
           padding: .2rem 0;
           // font-size: 1.2rem;
+        }
+        img {
+          width: 100% !important;
         }
         span {
           gap: .5rem;

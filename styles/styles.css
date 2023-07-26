@@ -145,11 +145,17 @@ html footer, body footer {
   main #about .aboutText, main #about h1, main #about p {
     margin: 0.3rem;
   }
+  main #eventos {
+    margin: 0.5rem 1rem;
+  }
   main #eventos h1 {
     margin: 1rem auto 1rem 2.5rem;
   }
   main #eventos p {
     padding: 0.2rem 0;
+  }
+  main #eventos img {
+    width: 100% !important;
   }
   main #eventos span {
     gap: 0.5rem;
