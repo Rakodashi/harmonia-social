@@ -1,0 +1,434 @@
+// * {
+//   box-sizing: border-box;
+//   font-family: 'Verdana', sans-serif;
+//   place-self: center;
+//   margin: 0;
+//   padding: 0;
+
+//   // border: 1px solid red;
+// }
+// html, body {
+//   color: #fff;
+//   display: flex;
+//   flex-direction: column;
+
+//   .blue {
+//     color: #2946BF;
+//   }
+
+//   header {
+//     display: flex;
+//     flex-direction: row;
+//     background: #2946BF;
+//     justify-content: space-between;
+//     width: 100%;
+//     position: sticky;
+//     top: 0;
+//   }
+  
+//   main {
+//     section {
+//       img {
+//         width: 100%;
+//         height: auto;
+//       }
+//     }
+//     .hero-gradient {
+//       display: flex;
+//       flex-direction: column;
+//       background: linear-gradient(0deg, rgba(0,0,0,1) 10%, rgba(0,0,0,0.5) 30%, rgba(255,255,255,0) 50%),
+//       url('../images/image_10.png');
+//       background-repeat: no-repeat;
+//       background-position: center;
+//       background-size: cover;
+//     }
+//     #about {
+//       display: flex;
+//       flex-direction: row;
+//       background: #00BF63;
+//     }
+//     #eventos {
+//       display: flex;
+//       flex-direction: column;
+//       // margin: 5rem 6rem;
+//       // h1 {
+//         // margin: 2rem 0;
+//         // margin: 2rem auto 2rem 5rem;
+//       // }
+//       // p {
+//         // padding: 1rem 0;
+//         // font-size: 1.2rem;
+//       // }
+//       span {
+//         display: flex;
+//         flex-direction: row;
+//         // gap: 2rem;
+//       }
+//       .eventoCard {
+//         display: flex;
+//         flex-direction: column;
+//       }
+//     }
+//     #about2 {
+//       display: flex;
+//       flex-direction: row;
+//       background: #FCFF6D;
+//     }
+//     #gallery {
+//       display: flex;
+//       flex-direction: column;
+//       // margin: 5rem 5rem;
+
+//       span {
+//         display: flex;
+//       }
+//       .eventoCard {
+//         display: flex;
+//         flex-direction: column;
+//       }
+//       // .galeriaText {
+//       //   margin: 2rem auto 2rem 0;
+//       // }
+//     }
+//   }
+//   footer {
+//     display: flex;
+//     flex-direction: row;
+//     width: 100%;
+//     background: #2946BF;
+//     justify-content: space-between;
+//   }
+// }
+
+// // @media screen and (min-width: 768px) {} 
+
+// // Phone screens
+// @media screen and (min-width: 350px) {
+
+//   .social-btns {
+//     // margin: auto 3rem;
+//     // display: inline-flex;
+//     // font-size: 1rem;
+//     // gap: .5rem;
+//     img {
+//       width: 1.4rem;
+//     }
+//   }
+
+//   header {
+//     padding: .3rem;
+//     height: 4rem;
+
+//     #home {
+//       display: flex;
+//       font-size: .4rem;
+//       text-decoration: none;
+//       color: #fff;
+//       // margin: auto 0 auto 1rem;
+//       // margin: 0 .5rem;
+
+//       #logo {
+//         width: 2rem;
+//         height: auto;
+//       }
+
+//       .logo-top {
+//         letter-spacing: 0.09em;
+//         font-weight: 400;
+//         margin: 0 0 0 .1rem;
+//       }
+//       .logo-btm {
+//         letter-spacing: 0.09em;
+//         font-weight: 700;
+//         margin: 0 0 0 .1rem;
+//       }
+//     }
+//   }
+//   main {
+//     h1 {
+//       font-size: 1rem;
+//     }
+//     p {
+//       font-size: .6rem;
+//     }
+//     section {
+//       img {
+//         width: 40% !important;
+//       }
+//     }
+//     .hero-info {
+//       display: flex;
+//       flex-direction: row;
+//       color: #fff;
+//       margin-top: 8rem;
+//       // margin-left: 2rem;
+//       // margin-right: 2rem;
+//       width: 100vw;
+
+//       h1 {
+//         margin: .5rem .25rem;
+//       }
+//       p {
+//         margin: .5rem .25rem;
+//         font-size: .5rem;
+//       }
+//       // .gradientDiv {
+//       //   margin: 0 auto 2rem 2rem;
+//       // }
+//     }
+//     .heroBtn {
+//         color: #fff;
+//         text-decoration: none;
+//         margin: 0 .6rem 0 .2rem;
+//         padding: 0.6rem .2rem;
+//         font-size: .6rem;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         text-align: center;
+
+//         width: 8rem;
+//         height: .2rem;
+
+//         border: 2px solid #FFFFFF;
+//         border-radius: 999px;
+//       }
+//       #about {
+//         .aboutText, h1, p {
+//           margin: .3rem;
+//         }
+//       }
+//       #eventos {
+//         margin: 1rem 1rem;
+//         h1 {
+//           // margin: 7rem 0;
+//           margin: 0 auto 1rem 0;
+//         }
+//         p {
+//           padding: .2rem 0;
+//           // font-size: 1.2rem;
+//         }
+//         img {
+//           width: 100% !important;
+//         }
+//         span {
+//           gap: .5rem;
+//         }
+//       }
+//       #about2 {
+//         .aboutText, h1, p {
+//           margin: .3rem;
+//         }
+//       }
+//       #gallery {
+//         // margin: 5rem 5rem;
+//         img {
+//           width: 100% !important;
+//         }
+//         h1, p {
+//           margin: .5rem auto .5rem 1rem;
+//         }
+//         span {
+//           gap: .3rem;
+//         }
+//         .galeriaText {
+//           margin: 1rem auto 1rem 0;
+//         }
+//       }
+//   }
+//   footer {
+//     padding: .3rem;
+//     height: 4rem;
+
+//     #footer-logo {
+//       display: flex;
+//       flex-direction: row;
+//       font-size: .4rem;
+//       // margin: auto 0 auto auto;
+
+//       #footerLogo {
+//         width: 2rem;
+//         height: auto;
+//       }
+
+//       .logo-top {
+//         letter-spacing: 0.09em;
+//         font-weight: 400;
+//         margin: 0 0 0 .1rem;
+//       }
+//       .logo-btm {
+//         letter-spacing: 0.09em;
+//         font-weight: 700;
+//         margin: 0 0 0 .1rem;
+//       }
+//     }
+//   }
+// }
+// @media screen and (min-width: 700px) {} // Tablet
+
+// ////////////////////////////////////////////////////
+// /////////////////// Desktop ////////////////////////
+// ///////////////////////////////////////////////////
+
+// @media screen and (min-width: 1100px) {
+//   html, body {
+  
+//     h1 {
+//       font-size: 2rem;
+//     }
+//     p {
+//       font-size: 1rem;
+//     }
+//     section {
+//       img {
+//         width: 100% !important;
+//       }
+//     }
+
+//     .social-btns {
+//       margin: auto 3rem;
+//       display: inline-flex;
+//       // font-size: 1rem;
+//       gap: .5rem;
+//       img {
+//         width: 3rem;
+//       }
+//     }
+  
+  
+//     header {
+//       height: 9.375rem;
+//       // height: 8rem;
+  
+//       #home {
+//         display: flex;
+//         text-decoration: none;
+//         color: #fff;
+//         margin: auto 0 auto 3rem;
+
+//         #logo {
+//           width: 5rem;
+//           height: auto;
+//         }
+  
+//         .logo-top {
+//           letter-spacing: 0.09em;
+//           font-weight: 400;
+//           margin: 0 1rem;
+//         }
+//         .logo-btm {
+//           letter-spacing: 0.09em;
+//           font-weight: 700;
+//           margin: 0 1rem;
+//         }
+//       }
+//     }
+//     main {
+//       .hero-info {
+//         display: flex;
+//         flex-direction: row;
+//         color: #fff;
+//         margin-top: 36rem;
+//         margin-left: 2rem;
+//         margin-right: 2rem;
+//         width: 100vw;
+  
+//         h1 {
+//           margin: 3rem 1rem;
+//         }
+//         p {
+//           margin: 2rem 1rem;
+//           font-size: 1.5rem;
+//         }
+//         .gradientDiv {
+//           margin: 0 auto 2rem 2rem;
+//         }
+//       }
+//       .heroBtn {
+//           color: #fff;
+//           text-decoration: none;
+//           margin: 0 3rem 0 1rem;
+//           padding: 0.6rem;
+//           font-size: 2rem;
+//           display: flex;
+//           align-items: center;
+//           justify-content: center;
+//           text-align: center;
+  
+//           width: 16.4rem;
+//           height: 4.5rem;
+  
+//           border: 4px solid #FFFFFF;
+//           border-radius: 999px;
+//         }
+//         #about {
+//           .aboutText, h1, p {
+//             margin: 2rem;
+//           }
+//         }
+//         #eventos {
+//           margin: 5rem 6rem;
+//           h1 {
+//             // margin: 2rem 0;
+//             margin: 2rem auto 2rem 0;
+//           }
+//           p {
+//             padding: 1rem 0;
+//             font-size: 1.2rem;
+//           }
+//           span {
+//             gap: 2rem;
+//           }
+//         }
+//         #about2 {
+//           .aboutText, h1, p {
+//             margin: 2rem;
+//           }
+//         }
+//         #gallery {
+//           // margin: 5rem 5rem;
+          
+//           h1, p {
+//             margin: 2rem auto 2rem 5rem;
+//           }
+//           span {
+//             gap: 4rem;
+//           }
+//           .galeriaText {
+//             // margin: 1rem;
+//             margin: 2rem auto 2rem 0;
+//           }
+//         }
+//     }
+  
+//     footer {
+//       display: flex;
+//       flex-direction: row;
+//       height: 9.375rem;
+//       background: #2946BF;
+//       justify-content: space-between;
+  
+//       #footer-logo {
+//         display: flex;
+//         flex-direction: row;
+//         margin: auto 3rem auto 0;
+
+//         #footerLogo {
+//           width: 5rem;
+//           height: auto;
+//         }
+  
+//         .logo-top {
+//           letter-spacing: 0.09em;
+//           font-weight: 400;
+//           margin: 0 1rem;
+//         }
+//         .logo-btm {
+//           letter-spacing: 0.09em;
+//           font-weight: 700;
+//           margin: 0 1rem;
+//         }
+//       }
+//     }
+//   }
+// } //desktop
