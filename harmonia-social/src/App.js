@@ -1,10 +1,10 @@
-import About from "./About";
-import About2 from "./About2";
+import About from "./components/About";
+import About2 from "./components/About2";
 import "./App.scss";
-import Eventos from "./Eventos";
-import Galeria from "./Galeria";
-import Header from "./Header";
-import Hero from "./Hero";
+import Eventos from "./components/Eventos";
+import Galeria from "./components/Galeria";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
 import Home from "./Home";
 import Footer from "./components/Footer";
 

@@ -8,7 +8,7 @@
     // border: 1px solid red;
   }
   html, body {
-    color: #fff;
+    // color: #fff;
     display: flex;
     flex-direction: column;
   
@@ -37,10 +37,29 @@
         display: flex;
         flex-direction: column;
         background: linear-gradient(0deg, rgba(0,0,0,1) 10%, rgba(0,0,0,0.5) 30%, rgba(255,255,255,0) 50%),
-        url('../assets/image_10.png');
+        url('./assets/image_10.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+      }
+      .gradientDiv {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+      }
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(0deg, rgba(0,0,0,1) 10%, rgba(0,0,0,0.5) 30%, rgba(255,255,255,0) 50%);
       }
       #about {
         display: flex;
@@ -96,6 +115,7 @@
       flex-direction: row;
       width: 100%;
       background: #2946BF;
+      color: #fff;
       justify-content: space-between;
     }
   }
