@@ -5,7 +5,9 @@ const About = () => {
     <section id="about">
         <div className="aboutText">
           <h1>Nosso Projeto</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis possimus voluptas laboriosam dolor facere minima velit modi illum nostrum consequuntur. Impedit rerum, repellat ab quidem earum inventore dicta illo asperiores ea cupiditate consequatur, enim ad ipsam est ullam alias velit possimus minima quam illum adipisci.</p>
+            <p>O projeto Harmonia Social visa levar aos jovens da Taquara, cultura e musicalização. Com aulas de música e a sua história, história da música brasileira, oficina de percussão, artes, cinema, dança, e muito entretenimento.</p>
+            <br />
+            <p>A missão é entregar aos jovens, os valores culturais brasileiros, e assim ajudar a reconhecer quem somos e da onde viemos. Também faz parte da missão, melhorar as relações pessoais , o intelecto e o caráter daqueles que fazem parte do projeto.</p>
         </div>
         <img src={NossoProjeto} alt="" />
       </section>
