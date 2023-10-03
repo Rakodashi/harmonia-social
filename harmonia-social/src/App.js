@@ -31,7 +31,7 @@ function App() {
       <Hero />
       <About />
       <div style={containerStyles}>
-        <ImageSlider slides={slides} />
+        <ImageSlider slides={slides} parentWidth={500} />
       </div>
       <Eventos />
       <About2 />
