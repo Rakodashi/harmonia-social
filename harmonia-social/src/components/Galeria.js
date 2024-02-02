@@ -1,4 +1,8 @@
-import galeria from "../assets/galeria.png"
+// import galeria from "../assets/galeria.png"
+import galeria1 from "../assets/10.1.jpg"
+import galeria2 from "../assets/1.1.jpg"
+import galeria3 from "../assets/9.3.jpg"
+import galeria4 from "../assets/9.7.jpg"
 
 const Galeria = () => {
   return ( 
@@ -7,16 +11,16 @@ const Galeria = () => {
       
       <span>
         <div className="eventoCard">
-          <img src={galeria} alt="" />
+          <img src={galeria1} alt="" />
         </div>
         <div className="eventoCard">
-          <img src={galeria} alt="" />
+          <img src={galeria2} alt="" />
         </div>
         <div className="eventoCard">
-          <img src={galeria} alt="" />
+          <img src={galeria3} alt="" />
         </div>
         <div className="eventoCard">
-          <img src={galeria} alt="" />
+          <img src={galeria4} alt="" />
         </div>
       </span>
 

@@ -4,7 +4,7 @@ import whatsapp from "../assets/whatsapp.svg"
 import telegram from "../assets/telegram.svg"
 import youtube from "../assets/youtube.svg"
 import facebook from "../assets/facebook.svg"
-import patreon from "../assets/patreon.svg"
+import vakinha from "../assets/vakinha.svg"
 
 const Footer = () => {
   return ( 
@@ -15,9 +15,9 @@ const Footer = () => {
       <a href="#" target="_blank" rel="noreferrer noopener"><img src={telegram} alt="Telegram" className="telegram" /></a>
       <a href="#" target="_blank" rel="noreferrer noopener"><img src={youtube} alt="Youtube" className="youtube" /></a>
       <a href="#" target="_blank" rel="noreferrer noopener"><img src={facebook} alt="Facebook" className="facebook" /></a>
-      <a href="#" target="_blank" rel="noreferrer noopener"><img src={patreon} alt="Patreon" className="patreon" /></a>
+      <a href="https://www.vakinha.com.br/vaquinha/harmonia-social-thiago-martins" target="_blank" rel="noreferrer noopener"><img src={vakinha} alt="vakinha" className="vakinha" /></a>
     </span>
-    <div href="#" id="footer-logo" title="Centro Cultural Harmonia Social" alt="Harmonia Social logo"><img src="./images/hs-icon.svg" alt="" id="footerLogo" />
+    <div href="#" id="footer-logo" title="Centro Cultural Harmonia Social" alt="Harmonia Social logo"><img src={logo} alt="" id="footerLogo" />
     <span id="FooterText">
       <h1 className="logo-top">Centro cultural</h1>
       <h1 className="logo-btm">Harmonia Social</h1>

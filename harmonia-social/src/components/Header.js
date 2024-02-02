@@ -5,6 +5,7 @@ import telegram from "../assets/telegram.svg"
 import youtube from "../assets/youtube.svg"
 import facebook from "../assets/facebook.svg"
 import patreon from "../assets/patreon.svg"
+import vakinha from "../assets/vakinha.svg"
 
 const Header = () => {
   return ( 
@@ -21,7 +22,7 @@ const Header = () => {
       <a href="#" target="_blank" rel="noreferrer noopener"><img src={telegram} alt="Telegram" /></a>
       <a href="#" target="_blank" rel="noreferrer noopener"><img src={youtube} alt="Youtube" /></a>
       <a href="#" target="_blank" rel="noreferrer noopener"><img src={facebook} alt="Facebook" /></a>
-      <a href="#" target="_blank" rel="noreferrer noopener"><img src={patreon} alt="Patreon" /></a>
+      <a href="https://www.vakinha.com.br/vaquinha/harmonia-social-thiago-martins" target="_blank" rel="noreferrer noopener"><img src={vakinha} alt="Vakinha" /></a>
     </span>
     </header>
    );

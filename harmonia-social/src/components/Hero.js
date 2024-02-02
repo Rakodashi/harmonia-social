@@ -7,11 +7,12 @@ const Hero = () => {
 
       {/* <div className="hero-info"> */}
           <img src={hero} alt="" />
-          <div className="overlay"></div>
-        <div className="gradientDiv">
-          <h1>Projeto X</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae minima consectetur, nam perspiciatis autem vero laborum exercitationem.</p>
-        <a href="#" className="heroBtn">saiba mais</a>
+          <div className="overlay">
+            <div className="gradientDiv">
+              <span><h1>Projeto Harmonia Social</h1>
+              <p>Elevando o tom de cultura dos jovens através de musicalização, entretenimento e acesso livre à cultura brasileira</p></span>
+            <a href="#" className="heroBtn">saiba mais</a>
+          </div>
         </div>
       {/* </div> */}
 

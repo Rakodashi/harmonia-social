@@ -1,4 +1,4 @@
-import NossoProjeto from "../assets/nosso-projeto.png"
+import NossoProjeto from "../assets/7.jpg"
 
 const About = () => {
   return ( 

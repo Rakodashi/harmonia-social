@@ -36,34 +36,47 @@
           height: auto;
         }
       }
-      // .hero-gradient {
-      //   display: flex;
-      //   flex-direction: column;
-      //   background: linear-gradient(0deg, rgba(0,0,0,1) 10%, rgba(0,0,0,0.5) 30%, rgba(255,255,255,0) 50%),
-      //   url('./assets/image_10.png');
-      //   background-repeat: no-repeat;
-      //   background-position: center;
-      //   background-size: cover;
-      // }
-      .gradientDiv {
+      .overlay {
         position: absolute;
+        overflow: hidden;
+        top: 0;
+        left: 0;
         width: 100%;
         height: 100%;
-        top: 0;
+        background: linear-gradient(0deg, rgba(0,0,0,0.9) 5%, rgba(0,0,0,0.5) 30%, rgba(255,255,255,0) 50%);
+      }
+      .gradientDiv {
+        position: absolute;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        top: 35%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         color: #fff;
       }
-      // .overlay {
-      //   position: absolute;
-      //   top: 0;
-      //   left: 0;
-      //   width: 100%;
-      //   height: 100%;
-      //   background: linear-gradient(0deg, rgba(0,0,0,1) 10%, rgba(0,0,0,0.5) 30%, rgba(255,255,255,0) 50%);
-      // }
+      .heroBtn {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 .6rem 0 .2rem;
+        padding: 1rem .1rem;
+        font-size: .6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        width: 8rem;
+        height: .2rem;
+
+        border: 2px solid #FFFFFF;
+        border-radius: 999px;
+      }
+      #hero {
+        position: relative;
+      }
       #about {
         display: flex;
         flex-direction: row;
@@ -199,23 +212,23 @@
         //   margin: 0 auto 2rem 2rem;
         // }
       }
-      .heroBtn {
-          color: #fff;
-          text-decoration: none;
-          margin: 0 .6rem 0 .2rem;
-          padding: 0.6rem .2rem;
-          font-size: .6rem;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          text-align: center;
+      // .heroBtn {
+      //     color: #fff;
+      //     text-decoration: none;
+      //     margin: 0 .6rem 0 .2rem;
+      //     padding: 0.6rem .2rem;
+      //     font-size: .6rem;
+      //     display: flex;
+      //     align-items: center;
+      //     justify-content: center;
+      //     text-align: center;
   
-          width: 8rem;
-          height: .2rem;
+      //     width: 8rem;
+      //     height: .2rem;
   
-          border: 2px solid #FFFFFF;
-          border-radius: 999px;
-        }
+      //     border: 2px solid #FFFFFF;
+      //     border-radius: 999px;
+      //   }
         #about {
           .aboutText, h1, p {
             margin: .3rem;

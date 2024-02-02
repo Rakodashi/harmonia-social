@@ -1,12 +1,18 @@
-import nossoProjeto from "../assets/nosso-projeto.png"
+import nossoProjeto from "../assets/5.2.jpg"
 
 const About2 = () => {
   return ( 
     <section id="about2" className="blue">
       <img src={nossoProjeto} alt="" />
       <div className="aboutText">
-        <h1>Nosso Projeto</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis possimus voluptas laboriosam dolor facere minima velit modi illum nostrum consequuntur. Impedit rerum, repellat ab quidem earum inventore dicta illo asperiores ea cupiditate consequatur, enim ad ipsam est ullam alias velit possimus minima quam illum adipisci.</p>
+        <h1>Doações</h1>
+          <p>O objetivo com o valor, é: Comprar materiais básicos para oficinas de artes, pipoca para o cinema, e materiais escolares básicos. Com música tudo é melhor!
+          <br />
+          <br />
+          Se você tem lápis de cor que não usa mais, canetinhas, materiais escolares básicos, folhas, cadernos, livros… tudo isso é importante para o projeto, não precisa ser novo.
+          <br />
+          <br />
+          Apoie essa causa!</p>
     </div>
   </section>
    );
