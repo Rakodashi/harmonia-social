@@ -1,3 +1,9 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+import 'swiper/scss';
+import 'swiper/scss/effect-coverflow';
+import 'swiper/scss/pagination';
+import 'swiper/scss/navigation';
+import { EffectCoverflow, Pagination, Navigation } from 'swiper';
 import About from "./components/About";
 import About2 from "./components/About2";
 import "./App.scss";
@@ -8,6 +14,7 @@ import Hero from "./components/Hero";
 import Home from "./Home";
 import Footer from "./components/Footer";
 import ImageSlider from "./components/ImageSlider"
+import ImageSlider2 from "./components/ImageSlider2"
 
 const slides = [
   {url: "http://localhost:3000/image-1.jpg", title: "beach"},
@@ -30,9 +37,10 @@ function App() {
       {/* <Home /> */}
       <Hero />
       <About />
-      <div style={containerStyles}>
+      {/* <div style={containerStyles}>
         <ImageSlider slides={slides} parentWidth={500} />
-      </div>
+      </div> */}
+      <ImageSlider2 />
       <Eventos />
       <About2 />
       <Galeria />
