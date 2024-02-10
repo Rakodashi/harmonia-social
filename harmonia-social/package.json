@@ -10,8 +10,9 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "sass": "^1.68.0",
-    "swiper": "^11.0.5",
-    "web-vitals": "^2.1.4"
+    "swiper": "^11.0.6",
+    "web-vitals": "^2.1.4",
+    "yet-another-react-lightbox": "^3.17.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -36,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
   }
 }

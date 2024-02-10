@@ -9,9 +9,9 @@ const Hero = () => {
           <img src={hero} alt="" />
           <div className="overlay">
             <div className="gradientDiv">
-              <span><h1>Projeto Harmonia Social</h1>
+              <span><h1>Conheça o projeto</h1>
               <p>Elevando o tom de cultura dos jovens através de musicalização, entretenimento e acesso livre à cultura brasileira</p></span>
-            <a href="#" className="heroBtn">saiba mais</a>
+            <a href="#about" className="heroBtn">saiba mais</a>
           </div>
         </div>
       {/* </div> */}

@@ -6,7 +6,9 @@ import eventos4 from "../assets/9.1.jpg"
 
 const Eventos = () => {
   return ( 
-    <section id="eventos" className="blue">
+    <section 
+    id="eventos" 
+    className="blue">
       <h1>Eventos</h1>
       
       <span>

@@ -95,7 +95,9 @@ const ImageSlider = ({ slides, parentWidth }) => {
   }, [goToNext]);
 
   return ( 
-    <section style={sliderStyles}>
+    <section id="eventos" style={sliderStyles}>
+      <h1 className="blue">Eventos</h1>
+
       <div>
         <div style={leftArrowStyles} onClick={goToPrevious}>❮</div>
         <div style={rightArrowStyles} onClick={goToNext}>❯</div>
