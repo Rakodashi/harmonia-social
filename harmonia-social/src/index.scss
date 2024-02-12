@@ -10,7 +10,6 @@
   }
   html, body {
     color: #fff;
-    // background: #232323;
     display: flex;
     flex-direction: column;
   
@@ -29,8 +28,6 @@
       top: 0;
       z-index: 3;
     }
-    
-
       section {
         img {
           width: 100%;
@@ -83,225 +80,6 @@
         flex-direction: row;
         background: #00BF63;
       }
-
-      /////////////// ImageSlider ///////////////////
-      // .slideStyles {
-      //   width: 100%;
-      //   height: 100%;
-      //   border-radius: 10px;
-      //   background-size: cover;
-      //   background-position: center;
-      // }
-      
-      // .leftArrowStyles {
-      //   position: absolute;
-      //   top: 50%;
-      //   transform: translate(0, -50%);
-      //   left: 32px;
-      //   font-size: 45px;
-      //   color: #fff;
-      //   z-index: 1;
-      //   cursor: pointer;
-      // }
-      
-      // .rightArrowStyles {
-      //   position: absolute;
-      //   top: 50%;
-      //   transform: translate(0, -50%);
-      //   right: 32px;
-      //   font-size: 45px;
-      //   color: #fff;
-      //   z-index: 1;
-      //   cursor: pointer;
-      // };
-      
-      // .sliderStyles {
-      //   position: relative;
-      //   height: 100%;
-      //   margin: 4rem 0;
-      // }
-
-      // .dotContainerStyles {
-      //   display: flex;
-      //   justify-content: center;
-      // }
-
-      // .dotStyles {
-      //   margin: 0 3px;
-      //   cursor: pointer;
-      //   font-size: 20px;
-      // }
-
-      // .slidesContainerStyles {
-      //   display: flex;
-      //   height: 100%;
-      //   transition: transform ease-out 0.3s;
-      // }
-      // .slidesContainerOverflowStyles {
-      //   overflow: hidden;
-      //   height: 100%;
-      // }
-      
-      /////////////////////////////////
-
-      // .container {
-      //   display: flex;
-      //   flex-direction: column;
-      //   // object-fit: contain;
-      //   max-width: 124rem;
-      //   padding: 4rem 1rem;
-      //   margin: 0 auto;
-      // }
-      // .heading {
-      //   padding: 1rem 0;
-      //   font-size: 3.5rem;
-      //   text-align: center;
-      // }
-      
-      // .swiper_container {
-      //   height: 20rem;
-      //   padding: 2rem 0;
-      //   position: relative;
-      // }
-      
-      // .swiper-slide {
-      //   width: 37rem;
-      //   height: 42rem;
-      //   position: relative;
-      // }
-
-      ////////////////////// Image Slider 3 //////////////////////////////
-      // .eventos {
-      //   width: 100%;
-      // }
-      // .eventos-container {
-      //   align-items: center;
-      //   display: flex;
-      //   height: 400px;
-      //   margin: 0 auto;
-      //   max-width: 1000px;
-      //   position: relative;
-      // }
-      // .eventos-item {
-      //   height: 200px;
-      //   opacity: 0;
-      //   position: absolute;
-      //   transition: all 0.3s ease-in-out;
-      //   width: 330px;
-      //   z-index: 0;
-      //   border-radius: 15px;
-      //   background-size: contain;
-      // }
-      // .eventos-item-1 {
-      //   left: 15%;
-      //   opacity: .4;
-      //   transform: translateX(-50%);
-      // }
-      // .eventos-item-2, .eventos-item-4 {
-      //   height: 250px;
-      //   opacity: 0.8;
-      //   width: 380px;
-      //   z-index: 1;
-      // }
-      // .eventos-item-2 {
-      //   left: 30%;
-      //   transform: translateX(-50%);
-      // }
-      // .eventos-item-3 {
-      //   box-shadow: -2px 5px 33px 6px rgba(0,0,0,0.35);
-      //   height: 300px;
-      //   opacity: 1;
-      //   left: 50%;
-      //   transform: translateX(-50%);
-      //   width: 430px;
-      //   z-index: 2;
-      // }
-      // .eventos-item-4 {
-      //   left: 70%;
-      //   transform: translateX(-50%);
-      // }
-      // .eventos-item-5 {
-      //   left: 85%;
-      //   opacity: .4;
-      //   transform: translateX(-50%);
-      // }
-      // .eventos-controls {
-      //   display: flex;
-      //   justify-content: center;
-      //   margin: 25px 0;
-      //   height: 100px;
-      // }
-      // .eventos-controls button {
-      //   background-color: transparent;
-      //   border: 0;
-      //   cursor: pointer;
-      //   font-size: 30px;
-      //   margin: 0 50px;
-      //   padding: 0 12px;
-      //   text-transform: capitalize;
-      // }
-      // eventos-controls-button:focus {
-      //   outline: none;
-      // }
-      // eventos-controls-previous {
-      //   position: relative;
-      // }
-      // eventos-controls-previous::before {
-      //   border: solid #000;
-      //   border-width: 0 5px 5px 0;
-      //   content: '';
-      //   display: inline-block;
-      //   height: 5px;
-      //   left: -30px;
-      //   padding: 10px;
-      //   position: absolute;
-      //   top: 25%;
-      //   transform: rotate(135deg) translateY(-50%);
-      //   transition: left 0.15s ease-in-out;
-      //   width: 5px;
-      // }
-      // .eventos-controls-previous:hover::before {
-      //   left: -40px;
-      // }
-      // .eventos-controls-next {
-      //   position: relative;
-      // }
-      // .eventos-controls-next::before {
-      //   border: solid #000;
-      //   border-width: 0 5px 5px 0;
-      //   content: '';
-      //   display: inline-block;
-      //   height: 5px;
-      //   padding: 10px;
-      //   position: absolute;
-      //   right: -30px;
-      //   top: 45px; // check if px or pure number
-      //   transform: rotate(-45deg) translateY(-50%);
-      //   transition: right 0.15s ease-in-out;
-      //   width: 5px;
-      // }
-      // .eventos-control-next:hover::before {
-      //   right: -40px;
-      // }
-      // .eventos-nav {
-      //   bottom: -15px;
-      //   display: flex;
-      //   justify-content: center;
-      //   list-style: none;
-      //   padding: 0;
-      //   position: absolute;
-      //   width: 100%;
-      // }
-      // .eventos-nav li {
-      //   background: #ccc;
-      //   border-radius: 50%;
-      //   height: 10px;
-      //   margin: 0 16px;
-      //   width: 10px;
-      // }
-      // .eventos-nav li .eventos-item-selected {
-      //   background: #555;
-      // }
 
       ////////////////Swiper Card Slider ////////////////////
       
@@ -445,26 +223,9 @@
       //////////////////////////////////////////////////////
       
       // #eventos {
-        // display: flex;
-        // flex-direction: column;
-        // margin: 5rem 6rem;
-        // h1 {
-          // margin: 2rem 0;
-          // margin: 2rem auto 2rem 5rem;
-        // }
-        // p {
-          // padding: 1rem 0;
-          // font-size: 1.2rem;
-        // }
-      //   span {
-      //     display: flex;
-      //     flex-direction: row;
-      //     // gap: 2rem;
-      //   }
-      //   .eventoCard {
-      //     display: flex;
-      //     flex-direction: column;
-      //   }
+      //   display: flex;
+      //   flex-direction: column;
+      //   margin: 5rem 6rem;
       // }
       #about2 {
         display: flex;
@@ -515,8 +276,7 @@
     }
   }
   
-  // @media screen and (min-width: 768px) {} 
-  
+
   // Phone screens
   @media screen and (min-width: 350px) {
   
@@ -615,41 +375,32 @@
         }
         #eventos {
           margin: 1rem 1rem;
-          h1 {
-            // margin: 7rem 0;
-            margin: 0 auto 1rem 0;
-          }
-          p {
-            padding: .2rem 0;
-            // font-size: 1.2rem;
-          }
-          img {
-            width: 100% !important;
-          }
-          span {
-            gap: .5rem;
-          }
+          // h1 {
+          //   // margin: 7rem 0;
+          //   margin: 0 auto 1rem 0;
+          // }
+          // p {
+          //   padding: .2rem 0;
+          //   // font-size: 1.2rem;
+          // }
+          // img {
+          //   width: 100% !important;
+          // }
+          // span {
+          //   gap: .5rem;
+          // }
         }
         #about2 {
           .aboutText, h1, p {
             margin: .3rem;
           }
         }
-        #gallery {
-          // margin: 5rem 5rem;
-          img {
-            width: 100% !important;
-          }
-          h1, p {
-            margin: .5rem auto .5rem 1rem;
-          }
-          span {
-            gap: .3rem;
-          }
-          .galeriaText {
-            margin: 1rem auto 1rem 0;
-          }
-        }
+        // #gallery {
+        //   // margin: 5rem 5rem;
+        //   img {
+        //     width: 100% !important;
+        //   }
+        // }
     }
     footer {
       padding: .3rem;
@@ -679,6 +430,8 @@
       }
     }
   }
+
+    // @media screen and (min-width: 768px) {} 
   @media screen and (min-width: 700px) {} // Tablet
   
   ////////////////////////////////////////////////////
@@ -781,39 +534,28 @@
               margin: 2rem;
             }
           }
-          #eventos {
-            margin: 5rem 6rem;
-            h1 {
-              // margin: 2rem 0;
-              margin: 2rem auto 2rem 0;
-            }
-            p {
-              padding: 1rem 0;
-              font-size: 1.2rem;
-            }
-            span {
-              gap: 2rem;
-            }
-          }
+          // #eventos {
+          //   margin: 5rem 6rem;
+          //   h1 {
+          //     // margin: 2rem 0;
+          //     margin: 2rem auto 2rem 0;
+          //   }
+          //   p {
+          //     padding: 1rem 0;
+          //     font-size: 1.2rem;
+          //   }
+          //   span {
+          //     gap: 2rem;
+          //   }
+          // }
           #about2 {
             .aboutText, h1, p {
               margin: 2rem;
             }
           }
-          #gallery {
-            // margin: 5rem 5rem;
-            
-            h1, p {
-              margin: 2rem auto 2rem 5rem;
-            }
-            span {
-              gap: 4rem;
-            }
-            .galeriaText {
-              // margin: 1rem;
-              margin: 2rem auto 2rem 0;
-            }
-          }
+          // #gallery {
+          //   // margin: 5rem 5rem;
+          // }
       }
     
       footer {

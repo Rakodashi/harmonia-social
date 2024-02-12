@@ -1,33 +1,36 @@
-// import galeria from "../assets/galeria.png"
-import galeria1 from "../assets/10.1.jpg"
-import galeria2 from "../assets/1.1.jpg"
-import galeria3 from "../assets/9.3.jpg"
-import galeria4 from "../assets/9.7.jpg"
+import React, { useState } from "react";
+import Lightbox from "yet-another-react-lightbox";
+import { slides } from "../data";
+import "yet-another-react-lightbox/styles.css";
+// import "yet-another-react-lightbox/plugins/captions.css";
+import "yet-another-react-lightbox/plugins/counter.css";
+import Counter from "yet-another-react-lightbox/plugins/counter";
+// import { Captions } from "yet-another-react-lightbox/plugins";
+import Images from "./Images";
+
 
 const Galeria = () => {
+  const [index, setIndex] = useState(-1);
+  // const captionsRef = React.useRef(null);
+
   return ( 
     <section id="gallery" className="blue">
       <h1>Galeria</h1>
-      
-      <span>
-        <div className="eventoCard">
-          <img src={galeria1} alt="" />
-        </div>
-        <div className="eventoCard">
-          <img src={galeria2} alt="" />
-        </div>
-        <div className="eventoCard">
-          <img src={galeria3} alt="" />
-        </div>
-        <div className="eventoCard">
-          <img src={galeria4} alt="" />
-        </div>
-      </span>
 
-      <div className="galeriaText">
-        <h1>Nosso Projeto</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum quam sunt placeat!</p>
-      </div>
+      <Images data={ slides } onClick={(currentIndex) => setIndex(currentIndex)} />
+
+      <Lightbox
+        plugins={[Counter]}
+        // captions={{
+        //   showToggle: true,
+        //   descriptionTextAlign: 'center',
+        // }}
+        counter={{ container: { style: { top: "unset", top: 0} } }}
+        index={index}
+        open={index >= 0}
+        close={() => setIndex(-1)}
+        slides={ slides }
+      />
     </section>
    );
 }

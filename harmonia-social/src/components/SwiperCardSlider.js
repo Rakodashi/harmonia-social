@@ -1,9 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Keyboard, Navigation, Pagination } from 'swiper/modules';
 import evento from "../assets/eventos.png"
-
-
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -47,7 +44,7 @@ const SwiperCardSlider = () => {
                   <span className="img-overlay">
 
                     <div className="card-image">
-                      <img src="../assets/eventos.png" className="card-img" alt="" />
+                      <img src={ evento } className="card-img" alt="" />
                     </div>
                   </span>
                 </div>
@@ -66,7 +63,7 @@ const SwiperCardSlider = () => {
                   <span className="img-overlay">
 
                     <div className="card-image">
-                      <img src="../assets/eventos.png" className="card-img" alt="" />
+                      <img src={ evento } className="card-img" alt="" />
                     </div>
                   </span>
                 </div>
@@ -85,7 +82,7 @@ const SwiperCardSlider = () => {
                   <span className="img-overlay">
 
                     <div className="card-image">
-                      <img src="../assets/eventos.png" className="card-img" alt="" />
+                      <img src={ evento } className="card-img" alt="" />
                     </div>
                   </span>
                 </div>
@@ -104,7 +101,7 @@ const SwiperCardSlider = () => {
                   <span className="img-overlay">
 
                     <div className="card-image">
-                      <img src="../assets/eventos.png" className="card-img" alt="" />
+                      <img src={ evento } className="card-img" alt="" />
                     </div>
                   </span>
                 </div>
@@ -123,7 +120,7 @@ const SwiperCardSlider = () => {
                   <span className="img-overlay">
 
                     <div className="card-image">
-                      <img src="../assets/eventos.png" className="card-img" alt="" />
+                      <img src={ evento } className="card-img" alt="" />
                     </div>
                   </span>
                 </div>
@@ -142,7 +139,7 @@ const SwiperCardSlider = () => {
                   <span className="img-overlay">
 
                     <div className="card-image">
-                      <img src="../assets/eventos.png" className="card-img" alt="" />
+                      <img src={ evento } className="card-img" alt="" />
                     </div>
                   </span>
                 </div>
@@ -155,9 +152,9 @@ const SwiperCardSlider = () => {
               </div>
           </SwiperSlide>
 
-        <div class="swiper-button-next swiper-navBtn"></div>
-        <div class="swiper-button-prev swiper-navBtn"></div>
-        <div class="swiper-pagination swiper-navBtn"></div>
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination swiper-navBtn"></div>
 
           </div>
         </div>
