@@ -18,7 +18,7 @@ function App() {
       {/* <Home /> */}
       <Hero />
       <About />
-      <SwiperCardSlider />
+      {/* <SwiperCardSlider /> */}
       {/* <SwiperEvento /> */}
       {/* <Eventos /> */}
       <About2 />

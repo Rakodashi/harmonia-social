@@ -14,8 +14,10 @@
     flex-direction: column;
   
     .blue {
-      // color: #2946BF;
       color: #152462;
+    }
+    .social-btns {
+      display: inline-flex;
     }
   
     header {
@@ -128,7 +130,7 @@
         top: 0;
         height: 100%;
         width: 100%;
-        background-color: #4070f4;
+        background-color: #2946BF;
         border-radius: 25px 25px 0 25px;
       }
       .img-overlay::before,
@@ -139,7 +141,7 @@
         bottom: -40px;
         height: 40px;
         width: 40px;
-        background-color: #4070f4;
+        background-color: #2946BF;
       }
       .img-overlay::after {
         border-radius: 0 25px 0 0;
@@ -158,11 +160,11 @@
         width: 100%;
         object-fit: cover;
         border-radius: 360px;
-        border: 4px solid #4070f4;
+        border: 4px solid #2946BF;
       }
       // Myabe remove this .name class
       .name {
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 500;
         color: #333;
       }
@@ -176,14 +178,14 @@
         font-size: 16px;
         color: #fff;
         padding: 8px 16px;
-        background-color: #4070f4;
+        background-color: #2946BF;
         border-radius: 6px;
         margin: 14px;
         cursor: pointer;
         transition: all 0.3s ease;
       }
       .button:hover {
-        background: #265df2;
+        background: #6e93f7;
       }
       .swiper-navBtn {
         color: #6e93f7;
@@ -280,158 +282,167 @@
   // Phone screens
   @media screen and (min-width: 350px) {
   
-    .social-btns {
-      // margin: auto 3rem;
-      // display: inline-flex;
-      // font-size: 1rem;
-      // gap: .5rem;
-      img {
-        width: 1.4rem;
-      }
-    }
-  
-    header {
-      padding: .3rem;
-      height: 4rem;
-  
-      #home {
-        display: flex;
-        font-size: .4rem;
-        text-decoration: none;
-        color: #fff;
-        // margin: auto 0 auto 1rem;
-        // margin: 0 .5rem;
-  
-        #logo {
-          width: 2rem;
-          height: auto;
-        }
-  
-        .logo-top {
-          letter-spacing: 0.09em;
-          font-weight: 400;
-          margin: 0 0 0 .1rem;
-        }
-        .logo-btm {
-          letter-spacing: 0.09em;
-          font-weight: 700;
-          margin: 0 0 0 .1rem;
-        }
-      }
-    }
-    main {
+    html, body {
+
       h1 {
         font-size: 1rem;
       }
       p {
-        font-size: .6rem;
+        font-size: .5rem;
       }
-      section {
+
+      .social-btns {
+        // margin: auto 3rem;
+        // display: inline-flex;
+        // font-size: 1rem;
+        // gap: .5rem;
         img {
-          width: 40% !important;
+          width: 1.4rem;
         }
       }
-      .hero-info {
-        display: flex;
-        flex-direction: row;
-        color: #fff;
-        margin-top: 8rem;
-        // margin-left: 2rem;
-        // margin-right: 2rem;
-        width: 100vw;
-  
+    
+      header {
+        padding: .3rem;
+        height: 4rem;
+    
+        #home {
+          display: flex;
+          font-size: .4rem;
+          text-decoration: none;
+          color: #fff;
+          // margin: auto 0 auto 1rem;
+          // margin: 0 .5rem;
+    
+          #logo {
+            width: 2rem;
+            height: auto;
+          }
+    
+          .logo-top {
+            letter-spacing: 0.09em;
+            font-weight: 400;
+            margin: 0 0 0 .1rem;
+          }
+          .logo-btm {
+            letter-spacing: 0.09em;
+            font-weight: 700;
+            margin: 0 0 0 .1rem;
+          }
+        }
+      }
+      main {
         h1 {
-          margin: .5rem .25rem;
+          font-size: 1rem;
         }
         p {
-          margin: .5rem .25rem;
-          font-size: .5rem;
+          font-size: .6rem;
         }
-        // .gradientDiv {
-        //   margin: 0 auto 2rem 2rem;
-        // }
-      }
-      // .heroBtn {
-      //     color: #fff;
-      //     text-decoration: none;
-      //     margin: 0 .6rem 0 .2rem;
-      //     padding: 0.6rem .2rem;
-      //     font-size: .6rem;
-      //     display: flex;
-      //     align-items: center;
-      //     justify-content: center;
-      //     text-align: center;
-  
-      //     width: 8rem;
-      //     height: .2rem;
-  
-      //     border: 2px solid #FFFFFF;
-      //     border-radius: 999px;
-      //   }
-        #about {
-          .aboutText, h1, p {
-            margin: .3rem;
+        section {
+          img {
+            width: 40% !important;
           }
         }
-        #eventos {
-          margin: 1rem 1rem;
-          // h1 {
-          //   // margin: 7rem 0;
-          //   margin: 0 auto 1rem 0;
-          // }
-          // p {
-          //   padding: .2rem 0;
-          //   // font-size: 1.2rem;
-          // }
-          // img {
-          //   width: 100% !important;
-          // }
-          // span {
-          //   gap: .5rem;
-          // }
-        }
-        #about2 {
-          .aboutText, h1, p {
-            margin: .3rem;
+        .hero-info {
+          display: flex;
+          flex-direction: row;
+          color: #fff;
+          margin-top: 8rem;
+          // margin-left: 2rem;
+          // margin-right: 2rem;
+          width: 100vw;
+    
+          h1 {
+            margin: .5rem .25rem;
           }
+          p {
+            margin: .5rem .25rem;
+            font-size: .5rem;
+          }
+          // .gradientDiv {
+          //   margin: 0 auto 2rem 2rem;
+          // }
         }
-        // #gallery {
-        //   // margin: 5rem 5rem;
-        //   img {
-        //     width: 100% !important;
+        // .heroBtn {
+        //     color: #fff;
+        //     text-decoration: none;
+        //     margin: 0 .6rem 0 .2rem;
+        //     padding: 0.6rem .2rem;
+        //     font-size: .6rem;
+        //     display: flex;
+        //     align-items: center;
+        //     justify-content: center;
+        //     text-align: center;
+    
+        //     width: 8rem;
+        //     height: .2rem;
+    
+        //     border: 2px solid #FFFFFF;
+        //     border-radius: 999px;
         //   }
-        // }
-    }
-    footer {
-      padding: .3rem;
-      height: 4rem;
-  
-      #footer-logo {
-        display: flex;
-        flex-direction: row;
-        font-size: .4rem;
-        // margin: auto 0 auto auto;
-  
-        #footerLogo {
-          width: 2rem;
-          height: auto;
-        }
-  
-        .logo-top {
-          letter-spacing: 0.09em;
-          font-weight: 400;
-          margin: 0 0 0 .1rem;
-        }
-        .logo-btm {
-          letter-spacing: 0.09em;
-          font-weight: 700;
-          margin: 0 0 0 .1rem;
+          #about {
+            .aboutText, h1, p {
+              margin: .3rem;
+            }
+          }
+          #eventos {
+            margin: 1rem 1rem;
+            // h1 {
+            //   // margin: 7rem 0;
+            //   margin: 0 auto 1rem 0;
+            // }
+            // p {
+            //   padding: .2rem 0;
+            //   // font-size: 1.2rem;
+            // }
+            // img {
+            //   width: 100% !important;
+            // }
+            // span {
+            //   gap: .5rem;
+            // }
+          }
+          #about2 {
+            .aboutText, h1, p {
+              margin: .3rem;
+            }
+          }
+          // #gallery {
+          //   // margin: 5rem 5rem;
+          //   img {
+          //     width: 100% !important;
+          //   }
+          // }
+      }
+      footer {
+        padding: .3rem;
+        height: 4rem;
+    
+        #footer-logo {
+          display: flex;
+          flex-direction: row;
+          font-size: .4rem;
+          // margin: auto 0 auto auto;
+    
+          #footerLogo {
+            width: 2rem;
+            height: auto;
+          }
+    
+          .logo-top {
+            letter-spacing: 0.09em;
+            font-weight: 400;
+            margin: 0 0 0 .1rem;
+          }
+          .logo-btm {
+            letter-spacing: 0.09em;
+            font-weight: 700;
+            margin: 0 0 0 .1rem;
+          }
         }
       }
     }
   }
 
-    // @media screen and (min-width: 768px) {} 
   @media screen and (min-width: 700px) {} // Tablet
   
   ////////////////////////////////////////////////////
@@ -454,9 +465,7 @@
       }
   
       .social-btns {
-        margin: auto 3rem;
-        display: inline-flex;
-        // font-size: 1rem;
+        margin: auto 2rem;
         gap: .5rem;
         img {
           width: 3rem;

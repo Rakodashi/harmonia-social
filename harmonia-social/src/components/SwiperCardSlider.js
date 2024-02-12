@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Keyboard, Navigation, Pagination } from 'swiper/modules';
+import { Autoplay, Keyboard, Navigation, Pagination } from 'swiper/modules';
 import evento from "../assets/eventos.png"
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -15,22 +15,34 @@ const SwiperCardSlider = () => {
           enabled: true,
         }}
         centeredSlides={true}
-        fadeEffect={true}
+        // autoplay={{
+        //   delay: 3000,
+        //   disableOnInteraction: false,
+        // }}
+        lazy={true}
         grabCursor={true}
         breakpoints={{
-          769: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
             slidesPerView: 4,
-            slidesPerGroup: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 5,
+            spaceBetween: 50,
           },
         }}
-        // spaceBetween={0}
+        spaceBetween={50}
         loop={true}
         pagination={{
           clickable: true,
           dynamicBullets: true,
         }}
         navigation={true}
-        modules={[Keyboard, Navigation, Pagination]}
+        modules={[Autoplay, Keyboard, Navigation, Pagination]}
         className="slide-container"
       >
 
@@ -38,13 +50,12 @@ const SwiperCardSlider = () => {
         <div className="slide-content">
           <div className="card-wrapper swiper-wrapper">
 
-          <SwiperSlide>
-            <div className="card swiper-slide">
+          <SwiperSlide className="card swiper-slide">
                 <div className="image-content">
                   <span className="img-overlay">
 
                     <div className="card-image">
-                      <img src={ evento } className="card-img" alt="" />
+                      <img src={ evento } loading="lazy" className="card-img" alt="" />
                     </div>
                   </span>
                 </div>
@@ -54,16 +65,14 @@ const SwiperCardSlider = () => {
 
                   <button className="button">View More</button>
                 </div>
-              </div>
           </SwiperSlide>
 
-          <SwiperSlide>
-            <div className="card swiper-slide">
+          <SwiperSlide className="card swiper-slide">
                 <div className="image-content">
                   <span className="img-overlay">
 
                     <div className="card-image">
-                      <img src={ evento } className="card-img" alt="" />
+                      <img src={ evento } loading="lazy" className="card-img" alt="" />
                     </div>
                   </span>
                 </div>
@@ -73,16 +82,14 @@ const SwiperCardSlider = () => {
 
                   <button className="button">View More</button>
                 </div>
-              </div>
           </SwiperSlide>
 
-          <SwiperSlide>
-            <div className="card swiper-slide">
+          <SwiperSlide className="card swiper-slide">
                 <div className="image-content">
                   <span className="img-overlay">
 
                     <div className="card-image">
-                      <img src={ evento } className="card-img" alt="" />
+                      <img src={ evento } loading="lazy" className="card-img" alt="" />
                     </div>
                   </span>
                 </div>
@@ -92,16 +99,14 @@ const SwiperCardSlider = () => {
 
                   <button className="button">View More</button>
                 </div>
-              </div>
           </SwiperSlide>
 
-          <SwiperSlide>
-            <div className="card swiper-slide">
+          <SwiperSlide className="card swiper-slide">
                 <div className="image-content">
                   <span className="img-overlay">
 
                     <div className="card-image">
-                      <img src={ evento } className="card-img" alt="" />
+                      <img src={ evento } loading="lazy" className="card-img" alt="" />
                     </div>
                   </span>
                 </div>
@@ -111,16 +116,14 @@ const SwiperCardSlider = () => {
 
                   <button className="button">View More</button>
                 </div>
-              </div>
           </SwiperSlide>
 
-          <SwiperSlide>
-            <div className="card swiper-slide">
+          <SwiperSlide className="card swiper-slide">
                 <div className="image-content">
                   <span className="img-overlay">
 
                     <div className="card-image">
-                      <img src={ evento } className="card-img" alt="" />
+                      <img src={ evento } loading="lazy" className="card-img" alt="" />
                     </div>
                   </span>
                 </div>
@@ -130,16 +133,14 @@ const SwiperCardSlider = () => {
 
                   <button className="button">View More</button>
                 </div>
-              </div>
           </SwiperSlide>
 
-          <SwiperSlide>
-            <div className="card swiper-slide">
+          <SwiperSlide className="card swiper-slide">
                 <div className="image-content">
                   <span className="img-overlay">
 
                     <div className="card-image">
-                      <img src={ evento } className="card-img" alt="" />
+                      <img src={ evento } loading="lazy" className="card-img" alt="" />
                     </div>
                   </span>
                 </div>
@@ -149,7 +150,6 @@ const SwiperCardSlider = () => {
 
                   <button className="button">View More</button>
                 </div>
-              </div>
           </SwiperSlide>
 
             <div class="swiper-button-next swiper-navBtn"></div>
