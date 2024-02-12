@@ -1,91 +1,25 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Keyboard, Scrollbar, Navigation, Pagination } from 'swiper/modules';
+import { Keyboard, Navigation, Pagination } from 'swiper/modules';
 import evento from "../assets/eventos.png"
-// import SwiperCore, { Navigation } from 'swiper';
-// SwiperCore.use([Navigation]);
 
 
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/scrollbar';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-// import './styles.css';
 
 const SwiperCardSlider = () => {
   return ( 
     <section id="eventos" className="eventos blue">
       <h1>Eventos</h1>
 
-      {/* <div className="slide-container swiper mySwiper">
-        <div className="slide-content">
-          <div className="card-wrapper swiper-wrapper">
-            <div className="card swiper-slide">
-              <div className="image-content">
-                <span className="img-overlay">
-
-                  <div className="card-image">
-                    <img src="../assets/eventos.png" className="card-img" alt="" />
-                  </div>
-                </span>
-              </div>
-              <div className="card-content">
-                <h2 className="name">Main Title</h2>
-                <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
-
-                <button className="button">View More</button>
-              </div>
-            </div>
-
-            <div className="card swiper-slide">
-              <div className="image-content">
-                <span className="img-overlay">
-
-                  <div className="card-image">
-                    <img src="../assets/eventos.png" className="card-img" alt="" />
-                  </div>
-                </span>
-              </div>
-              <div className="card-content">
-                <h2 className="name">Main Title</h2>
-                <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
-
-                <button className="button">View More</button>
-              </div>
-            </div>
-
-            <div className="card swiper-slide">
-              <div className="image-content">
-                <span className="img-overlay">
-
-                  <div className="card-image">
-                    <img src="../assets/eventos.png" className="card-img" alt="" />
-                  </div>
-                </span>
-              </div>
-              <div className="card-content">
-                <h2 className="name">Main Title</h2>
-                <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
-
-                <button className="button">View More</button>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
-
-      </div> */}
-
       <Swiper
         keyboard={{
           enabled: true,
         }}
-        
         centeredSlides={true}
+        fadeEffect={true}
+        grabCursor={true}
         breakpoints={{
           769: {
             slidesPerView: 4,
@@ -96,192 +30,138 @@ const SwiperCardSlider = () => {
         loop={true}
         pagination={{
           clickable: true,
+          dynamicBullets: true,
         }}
         navigation={true}
         modules={[Keyboard, Navigation, Pagination]}
         className="slide-container"
       >
 
-      {/* <div className="slide-container"> */}
+      <div className="slide-container">
         <div className="slide-content">
           <div className="card-wrapper swiper-wrapper">
-            {/* <div className="card swiper-slide">
-              <div className="image-content">
-                <span className="img-overlay">
 
-                  <div className="card-image">
-                    <img src="../assets/eventos.png" className="card-img" alt="" />
-                  </div>
-                </span>
-              </div>
-              <div className="card-content">
-                <h2 className="name">Main Title</h2>
-                <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
-
-                <button className="button">View More</button>
-              </div>
-            </div>
-
+          <SwiperSlide>
             <div className="card swiper-slide">
-              <div className="image-content">
-                <span className="img-overlay">
+                <div className="image-content">
+                  <span className="img-overlay">
 
-                  <div className="card-image">
-                    <img src="../assets/eventos.png" className="card-img" alt="" />
-                  </div>
-                </span>
+                    <div className="card-image">
+                      <img src="../assets/eventos.png" className="card-img" alt="" />
+                    </div>
+                  </span>
+                </div>
+                <div className="card-content">
+                  <h2 className="name">Main Title</h2>
+                  <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
+
+                  <button className="button">View More</button>
+                </div>
               </div>
-              <div className="card-content">
-                <h2 className="name">Main Title</h2>
-                <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
+          </SwiperSlide>
 
-                <button className="button">View More</button>
-              </div>
-            </div>
-
+          <SwiperSlide>
             <div className="card swiper-slide">
-              <div className="image-content">
-                <span className="img-overlay">
+                <div className="image-content">
+                  <span className="img-overlay">
 
-                  <div className="card-image">
-                    <img src="../assets/eventos.png" className="card-img" alt="" />
-                  </div>
-                </span>
-              </div>
-              <div className="card-content">
-                <h2 className="name">Main Title</h2>
-                <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
+                    <div className="card-image">
+                      <img src="../assets/eventos.png" className="card-img" alt="" />
+                    </div>
+                  </span>
+                </div>
+                <div className="card-content">
+                  <h2 className="name">Main Title</h2>
+                  <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
 
-                <button className="button">View More</button>
+                  <button className="button">View More</button>
+                </div>
               </div>
-            </div> */}
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="card swiper-slide">
+                <div className="image-content">
+                  <span className="img-overlay">
+
+                    <div className="card-image">
+                      <img src="../assets/eventos.png" className="card-img" alt="" />
+                    </div>
+                  </span>
+                </div>
+                <div className="card-content">
+                  <h2 className="name">Main Title</h2>
+                  <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
+
+                  <button className="button">View More</button>
+                </div>
+              </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="card swiper-slide">
+                <div className="image-content">
+                  <span className="img-overlay">
+
+                    <div className="card-image">
+                      <img src="../assets/eventos.png" className="card-img" alt="" />
+                    </div>
+                  </span>
+                </div>
+                <div className="card-content">
+                  <h2 className="name">Main Title</h2>
+                  <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
+
+                  <button className="button">View More</button>
+                </div>
+              </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="card swiper-slide">
+                <div className="image-content">
+                  <span className="img-overlay">
+
+                    <div className="card-image">
+                      <img src="../assets/eventos.png" className="card-img" alt="" />
+                    </div>
+                  </span>
+                </div>
+                <div className="card-content">
+                  <h2 className="name">Main Title</h2>
+                  <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
+
+                  <button className="button">View More</button>
+                </div>
+              </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="card swiper-slide">
+                <div className="image-content">
+                  <span className="img-overlay">
+
+                    <div className="card-image">
+                      <img src="../assets/eventos.png" className="card-img" alt="" />
+                    </div>
+                  </span>
+                </div>
+                <div className="card-content">
+                  <h2 className="name">Main Title</h2>
+                  <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
+
+                  <button className="button">View More</button>
+                </div>
+              </div>
+          </SwiperSlide>
+
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination swiper-navBtn"></div>
 
           </div>
         </div>
-
-
-
-      {/* </div> */}
-
-
-        <SwiperSlide>
-          <div className="card swiper-slide">
-              <div className="image-content">
-                <span className="img-overlay">
-
-                  <div className="card-image">
-                    <img src="../assets/eventos.png" className="card-img" alt="" />
-                  </div>
-                </span>
-              </div>
-              <div className="card-content">
-                <h2 className="name">Main Title</h2>
-                <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
-
-                <button className="button">View More</button>
-              </div>
-            </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <div className="card swiper-slide">
-              <div className="image-content">
-                <span className="img-overlay">
-
-                  <div className="card-image">
-                    <img src="../assets/eventos.png" className="card-img" alt="" />
-                  </div>
-                </span>
-              </div>
-              <div className="card-content">
-                <h2 className="name">Main Title</h2>
-                <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
-
-                <button className="button">View More</button>
-              </div>
-            </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <div className="card swiper-slide">
-              <div className="image-content">
-                <span className="img-overlay">
-
-                  <div className="card-image">
-                    <img src="../assets/eventos.png" className="card-img" alt="" />
-                  </div>
-                </span>
-              </div>
-              <div className="card-content">
-                <h2 className="name">Main Title</h2>
-                <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
-
-                <button className="button">View More</button>
-              </div>
-            </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <div className="card swiper-slide">
-              <div className="image-content">
-                <span className="img-overlay">
-
-                  <div className="card-image">
-                    <img src="../assets/eventos.png" className="card-img" alt="" />
-                  </div>
-                </span>
-              </div>
-              <div className="card-content">
-                <h2 className="name">Main Title</h2>
-                <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
-
-                <button className="button">View More</button>
-              </div>
-            </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <div className="card swiper-slide">
-              <div className="image-content">
-                <span className="img-overlay">
-
-                  <div className="card-image">
-                    <img src="../assets/eventos.png" className="card-img" alt="" />
-                  </div>
-                </span>
-              </div>
-              <div className="card-content">
-                <h2 className="name">Main Title</h2>
-                <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
-
-                <button className="button">View More</button>
-              </div>
-            </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <div className="card swiper-slide">
-              <div className="image-content">
-                <span className="img-overlay">
-
-                  <div className="card-image">
-                    <img src="../assets/eventos.png" className="card-img" alt="" />
-                  </div>
-                </span>
-              </div>
-              <div className="card-content">
-                <h2 className="name">Main Title</h2>
-                <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
-
-                <button className="button">View More</button>
-              </div>
-            </div>
-        </SwiperSlide>
-
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
-        
+      </div>
       </Swiper>
 
     </section>
