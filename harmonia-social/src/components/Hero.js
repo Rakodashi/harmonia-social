@@ -1,4 +1,8 @@
-import hero from "../assets/image_10.png"
+// import desktop from "../assets/desktop.jpg"
+// import desktop2 from "../assets/desktop2.png"
+import desktop3 from "../assets/desktop3.png"
+// import mobile from "../assets/10.1.jpg"
+import Default from "../assets/2.jpg"
 
 const Hero = () => {
   return ( 
@@ -6,7 +10,12 @@ const Hero = () => {
     <section id="hero">
 
       {/* <div className="hero-info"> */}
-          <img src={hero} alt="" />
+
+          <picture>
+            <source media="(min-width: 700px)" srcset={desktop3} />
+            <img src={Default} className="desktop" alt="" />
+          </picture>
+
           <div className="overlay">
             <div className="gradientDiv">
               <span><h1>Conheça o projeto</h1>

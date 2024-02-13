@@ -12,7 +12,7 @@
     color: #fff;
     display: flex;
     flex-direction: column;
-  
+
     .blue {
       color: #152462;
     }
@@ -36,6 +36,19 @@
           height: auto;
         }
       }
+      #hero {
+        picture {
+          // display: block;
+          width: 100%;
+          // max-width: 500px;
+          // margin: 40px auto;
+        }
+  
+        picture > * {
+          max-width: 100%;
+        }
+      }
+
       .overlay {
         position: absolute;
         overflow: hidden;
@@ -60,8 +73,9 @@
       .heroBtn {
         color: #fff;
         text-decoration: none;
-        margin: 0 1rem 0 2rem;
-        padding: 1rem .1rem;
+        // margin: 0 1rem 0 2rem;
+        // padding: 1rem .1rem;
+        padding: 1rem 1.5rem;
         font-size: .6rem;
         display: flex;
         align-items: center;
@@ -285,7 +299,7 @@
     html, body {
 
       h1 {
-        font-size: 1.2rem;
+        font-size: 1rem;
       }
       p {
         font-size: .6rem;
@@ -295,7 +309,7 @@
         // margin: auto 3rem;
         // display: inline-flex;
         // font-size: 1rem;
-        // gap: .5rem;
+        gap: .2rem;
         img {
           width: 1.4rem;
         }
@@ -342,6 +356,14 @@
             width: 40% !important;
           }
         }
+        // #hero {
+          // .mobile {
+          //   display: flex;
+          // }
+        //   .desktop {
+        //     display: none;
+        //   }
+        // }
         .hero-info {
           display: flex;
           flex-direction: row;
@@ -362,12 +384,12 @@
           //   margin: 0 auto 2rem 2rem;
           // }
         }
-        // .heroBtn {
+        .heroBtn {
         //     color: #fff;
         //     text-decoration: none;
         //     margin: 0 .6rem 0 .2rem;
         //     padding: 0.6rem .2rem;
-        //     font-size: .6rem;
+            font-size: 32px;
         //     display: flex;
         //     align-items: center;
         //     justify-content: center;
@@ -378,7 +400,7 @@
     
         //     border: 2px solid #FFFFFF;
         //     border-radius: 999px;
-        //   }
+          }
           #about {
             .aboutText, h1, p {
               margin: .3rem;
@@ -474,8 +496,7 @@
     
     
       header {
-        height: 9.375rem;
-        // height: 8rem;
+        height: 7rem;
     
         #home {
           display: flex;
@@ -570,7 +591,7 @@
       footer {
         display: flex;
         flex-direction: row;
-        height: 9.375rem;
+        height: 7rem;
         background: #2946BF;
         justify-content: space-between;
     
