@@ -37,60 +37,60 @@
         }
       }
       #hero {
-        picture {
-          // display: block;
-          width: 100%;
-          // max-width: 500px;
-          // margin: 40px auto;
-        }
-  
-        picture > * {
-          max-width: 100%;
-        }
-      }
-
-      .overlay {
-        position: absolute;
-        overflow: hidden;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(0deg, rgba(0,0,0,0.9) 5%, rgba(0,0,0,0.5) 30%, rgba(255,255,255,0) 50%);
-      }
-      .gradientDiv {
-        position: absolute;
-        overflow: hidden;
-        width: 100%;
-        height: 100%;
-        top: 40%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        color: #fff;
-      }
-      .heroBtn {
-        color: #fff;
-        text-decoration: none;
-        // margin: 0 1rem 0 2rem;
-        // padding: 1rem .1rem;
-        padding: 1rem 1.5rem;
-        font-size: .6rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-
-        width: 8rem;
-        height: .2rem;
-
-        border: 2px solid #FFFFFF;
-        border-radius: 999px;
-      }
-      #hero {
         position: relative;
+
+        picture {
+          width: 100%;
+        }
+
+        .overlay {
+          position: absolute;
+          overflow: hidden;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(0deg, rgba(0,0,0,0.9) 5%, rgba(0,0,0,0.5) 30%, rgba(255,255,255,0) 50%);
+        }
+        .overlayContent {
+          position: absolute;
+          overflow: hidden;
+          width: 100%;
+          height: 100%;
+          top: 40%;
+          display: flex;
+          flex-direction: row;
+          // justify-content: center;
+          align-items: center;
+          color: #fff;
+          // margin: 0 1rem;
+        }
+        .overlayContent h1 {
+          margin-bottom: .5rem;
+        }
+        .overlayContent span {
+          margin: 0 auto 0 .8rem;
+        }
+        .heroBtn {
+          color: #fff;
+          text-decoration: none;
+          // margin: 0 1.5rem 0 0;
+          padding: .2rem 0;
+          font-size: .6rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          border: 2px solid #FFFFFF;
+          border-radius: 360px;
+  
+          width: 8rem;
+          // height: 1rem;
+  
+        }
       }
+
+
       #about {
         display: flex;
         flex-direction: row;
@@ -316,7 +316,7 @@
       }
     
       header {
-        padding: .3rem;
+        padding: .4rem;
         height: 4rem;
     
         #home {
@@ -356,51 +356,40 @@
             width: 40% !important;
           }
         }
-        // #hero {
-          // .mobile {
-          //   display: flex;
-          // }
-        //   .desktop {
-        //     display: none;
-        //   }
-        // }
-        .hero-info {
-          display: flex;
-          flex-direction: row;
-          color: #fff;
-          margin-top: 8rem;
-          // margin-left: 2rem;
-          // margin-right: 2rem;
-          width: 100vw;
-    
-          h1 {
-            margin: .5rem .25rem;
+        #hero {
+          .mobile {
+            display: flex;
           }
-          p {
-            margin: .5rem .25rem;
-            font-size: .5rem;
-          }
-          // .gradientDiv {
-          //   margin: 0 auto 2rem 2rem;
+          // .desktop {
+          //   display: none;
           // }
+          .hero-info {
+            display: flex;
+            flex-direction: row;
+            color: #fff;
+            margin-top: 8rem;
+            // margin-left: 2rem;
+            // margin-right: 2rem;
+            width: 100vw;
+      
+            h1 {
+              margin: .5rem .25rem;
+            }
+            p {
+              margin: .5rem .25rem;
+              font-size: .5rem;
+            }
+            // .overlayContent {
+            //   margin: 0 auto 2rem 2rem !important;
+            // }
+          }
+          .heroBtn {
+              // margin: 0 1.5rem 0 0;
+              // padding: 0.6rem .2rem;
+              // font-size: .6rem !important;
+              // width: 8rem;
+            }
         }
-        .heroBtn {
-        //     color: #fff;
-        //     text-decoration: none;
-        //     margin: 0 .6rem 0 .2rem;
-        //     padding: 0.6rem .2rem;
-            font-size: 32px;
-        //     display: flex;
-        //     align-items: center;
-        //     justify-content: center;
-        //     text-align: center;
-    
-        //     width: 8rem;
-        //     height: .2rem;
-    
-        //     border: 2px solid #FFFFFF;
-        //     border-radius: 999px;
-          }
           #about {
             .aboutText, h1, p {
               margin: .3rem;
@@ -436,7 +425,7 @@
           // }
       }
       footer {
-        padding: .3rem;
+        padding: .4rem;
         height: 4rem;
     
         #footer-logo {
@@ -538,26 +527,15 @@
             margin: 2rem 1rem;
             font-size: 1.5rem;
           }
-          .gradientDiv {
+          .overlayContent {
             margin: 0 auto 2rem 2rem;
           }
         }
         .heroBtn {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 3rem 0 1rem;
-            padding: 0.6rem;
-            font-size: 2rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-    
-            width: 16.4rem;
-            height: 4.5rem;
-    
-            border: 4px solid #FFFFFF;
-            border-radius: 999px;
+        //     margin: 0 3rem 0 1rem;
+            // padding: 0.6rem;
+            // font-size: 2rem !important;
+            // width: 16.4rem;
           }
           #about {
             .aboutText, h1, p {

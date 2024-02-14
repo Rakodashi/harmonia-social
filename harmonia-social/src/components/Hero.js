@@ -17,7 +17,7 @@ const Hero = () => {
           </picture>
 
           <div className="overlay">
-            <div className="gradientDiv">
+            <div className="overlayContent">
               <span><h1>Conheça o projeto</h1>
               <p>Elevando o tom de cultura dos jovens através de musicalização, entretenimento e acesso livre à cultura brasileira</p></span>
             <a href="#about" className="heroBtn">saiba mais</a>
