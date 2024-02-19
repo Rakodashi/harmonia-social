@@ -30,7 +30,7 @@ const Eventos2 = () => {
   return ( 
     <section id="eventos" className="blue">
       <div className="container blue">
-        <h1 className='eventosTitle'>Eventos</h1>
+        <h1>Eventos</h1>
 
         <div className="buttons">
           <button onClick={handleLeftClick}>
