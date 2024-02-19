@@ -6,13 +6,9 @@ const About2 = () => {
       <img src={nossoProjeto} alt="" />
       <div className="aboutText">
         <h1>Doações</h1>
-          <p>O objetivo com o valor, é: Comprar materiais básicos para oficinas de artes, pipoca para o cinema, e materiais escolares básicos. Com música tudo é melhor!
-          <br />
-          <br />
-          Se você tem lápis de cor que não usa mais, canetinhas, materiais escolares básicos, folhas, cadernos, livros… tudo isso é importante para o projeto, não precisa ser novo.
-          <br />
-          <br />
-          Apoie essa causa!</p>
+          <p>O objetivo com o valor, é: Comprar materiais básicos para oficinas de artes, pipoca para o cinema, e materiais escolares básicos. Com música tudo é melhor!</p>
+          <p>Se você tem lápis de cor que não usa mais, canetinhas, materiais escolares básicos, folhas, cadernos, livros… tudo isso é importante para o projeto, não precisa ser novo.</p>
+          <p>Apoie essa causa!</p>
     </div>
   </section>
    );

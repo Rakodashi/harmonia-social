@@ -10,6 +10,7 @@ import SwiperCardSlider from "./components/SwiperCardSlider";
 import SwiperEvento from "./components/Swiper";
 import "./index.scss";
 import "yet-another-react-lightbox/styles.css";
+import Eventos2 from "./components/Eventos2";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       {/* <Home /> */}
       <Hero />
       <About />
+      <Eventos2 />
       {/* <SwiperCardSlider /> */}
       {/* <SwiperEvento /> */}
       {/* <Eventos /> */}

@@ -1,0 +1,73 @@
+[
+  {
+    "id": "94313731",
+    "name": "Evento Final",
+    "about": "O projeto sofrerá uma pausa, e nada melhor que fechar com chave de ouro.",
+    "about2": "Ver mais",
+    "image": "assets/10.1.jpg"
+  },
+  {
+    "id": "94313762",
+    "name": "Recebemos mais que uma doação",
+    "about": "Recebemos muito amor e esperança num mundo diferente, onde a diferença começa no indivíduo.",
+    "about2": "Ver mais",
+    "image": "assets/9.1.jpg"
+  },
+  
+  { 
+    "id": "943137XQ",
+    "name": "Turma do barulho",
+    "about": "",
+    "about2": "Ver mais",
+    "image": "assets/8.1.jpg"
+  },
+  {
+    "id": "95077714",
+    "name": "Tom Jobim",
+    "about": "Antônio Carlos Jobim (1927-1994), conhecido como Tom Jobim, foi um compositor, pianista, violonista, arranjador e cantor brasileiro. ",
+    "about2": "Ver mais",
+    "image": "assets/6.jpg"
+  },
+  {
+    "id": "9507779N",
+    "name": "A Arte",
+    "about": "A arte é uma parte fundamental da educação e desempenha um papel importante no desenvolvimento das habilidades dos alunos.",
+    "about2": "Ver mais",
+    "image": "assets/7.jpg"
+  },
+  {
+    "id": "92601102",
+    "name": "Conheça a nossa vakinha!",
+    "about": "O objetivo com o valor, é: Comprar materiais básicos para oficinas de artes, pipoca para o cinema, e materiais escolares básicos.",
+    "about2": "Ver mais",
+    "image": "assets/11.4.jpg"
+  },
+  {
+    "id": "9465450R",
+    "name": "A Música",
+    "about": "O ensino da música muda as pessoas!",
+    "about2": "Ver mais",
+    "image": "assets/2.jpg"
+  },
+  {
+    "id": "95004531",
+    "name": "Chiquinha Gonzaga",
+    "about": "Chiquinha Gonzaga foi a primeira pianista de choro no Brasil e uma das primeiras mulheres a se destacar na música brasileira. ",
+    "about2": "Ver mais",
+    "image": "assets/4.jpg"
+  },
+  {
+    "id": "94672705",
+    "name": "Recebemos mais que uma doação",
+    "about": "",
+    "about2": "Ver mais",
+    "image": "assets/10.1.jpg"
+  },
+  {
+    "id": "92456602",
+    "name": "Noel Rosa",
+    "about": "Noel Rosa é considerado um dos fundadores da 'Era do Rádio' no Brasil.",
+    "about2": "Ver mais",
+    "image": "assets/3.jpg"
+  }
+]

@@ -4,6 +4,7 @@ import evento from "../assets/eventos.png"
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+// import "../index.scss";
 
 const SwiperCardSlider = () => {
   return ( 
@@ -22,8 +23,12 @@ const SwiperCardSlider = () => {
         lazy={true}
         grabCursor={true}
         breakpoints={{
+          350: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
           640: {
-            slidesPerView: 2,
+            slidesPerView: 3,
             spaceBetween: 20,
           },
           768: {
@@ -50,107 +55,107 @@ const SwiperCardSlider = () => {
         <div className="slide-content">
           <div className="card-wrapper swiper-wrapper">
 
-          <SwiperSlide className="card swiper-slide">
-                <div className="image-content">
-                  <span className="img-overlay">
+            <SwiperSlide className="card swiper-slide">
+                  <div className="image-content">
+                    <span className="img-overlay">
 
-                    <div className="card-image">
-                      <img src={ evento } loading="lazy" className="card-img" alt="" />
-                    </div>
-                  </span>
-                </div>
-                <div className="card-content">
-                  <h2 className="name">Main Title</h2>
-                  <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
+                      <div className="card-image">
+                        <img src={ evento } loading="lazy" className="card-img" alt="" />
+                      </div>
+                    </span>
+                  </div>
+                  <div className="card-content">
+                    <h2 className="name">Main Title</h2>
+                    <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
 
-                  <button className="button">View More</button>
-                </div>
-          </SwiperSlide>
+                    <button className="button">View More</button>
+                  </div>
+            </SwiperSlide>
 
-          <SwiperSlide className="card swiper-slide">
-                <div className="image-content">
-                  <span className="img-overlay">
+            <SwiperSlide className="card swiper-slide">
+                  <div className="image-content">
+                    <span className="img-overlay">
 
-                    <div className="card-image">
-                      <img src={ evento } loading="lazy" className="card-img" alt="" />
-                    </div>
-                  </span>
-                </div>
-                <div className="card-content">
-                  <h2 className="name">Main Title</h2>
-                  <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
+                      <div className="card-image">
+                        <img src={ evento } loading="lazy" className="card-img" alt="" />
+                      </div>
+                    </span>
+                  </div>
+                  <div className="card-content">
+                    <h2 className="name">Main Title</h2>
+                    <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
 
-                  <button className="button">View More</button>
-                </div>
-          </SwiperSlide>
+                    <button className="button">View More</button>
+                  </div>
+            </SwiperSlide>
 
-          <SwiperSlide className="card swiper-slide">
-                <div className="image-content">
-                  <span className="img-overlay">
+            <SwiperSlide className="card swiper-slide">
+                  <div className="image-content">
+                    <span className="img-overlay">
 
-                    <div className="card-image">
-                      <img src={ evento } loading="lazy" className="card-img" alt="" />
-                    </div>
-                  </span>
-                </div>
-                <div className="card-content">
-                  <h2 className="name">Main Title</h2>
-                  <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
+                      <div className="card-image">
+                        <img src={ evento } loading="lazy" className="card-img" alt="" />
+                      </div>
+                    </span>
+                  </div>
+                  <div className="card-content">
+                    <h2 className="name">Main Title</h2>
+                    <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
 
-                  <button className="button">View More</button>
-                </div>
-          </SwiperSlide>
+                    <button className="button">View More</button>
+                  </div>
+            </SwiperSlide>
 
-          <SwiperSlide className="card swiper-slide">
-                <div className="image-content">
-                  <span className="img-overlay">
+            <SwiperSlide className="card swiper-slide">
+                  <div className="image-content">
+                    <span className="img-overlay">
 
-                    <div className="card-image">
-                      <img src={ evento } loading="lazy" className="card-img" alt="" />
-                    </div>
-                  </span>
-                </div>
-                <div className="card-content">
-                  <h2 className="name">Main Title</h2>
-                  <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
+                      <div className="card-image">
+                        <img src={ evento } loading="lazy" className="card-img" alt="" />
+                      </div>
+                    </span>
+                  </div>
+                  <div className="card-content">
+                    <h2 className="name">Main Title</h2>
+                    <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
 
-                  <button className="button">View More</button>
-                </div>
-          </SwiperSlide>
+                    <button className="button">View More</button>
+                  </div>
+            </SwiperSlide>
 
-          <SwiperSlide className="card swiper-slide">
-                <div className="image-content">
-                  <span className="img-overlay">
+            <SwiperSlide className="card swiper-slide">
+                  <div className="image-content">
+                    <span className="img-overlay">
 
-                    <div className="card-image">
-                      <img src={ evento } loading="lazy" className="card-img" alt="" />
-                    </div>
-                  </span>
-                </div>
-                <div className="card-content">
-                  <h2 className="name">Main Title</h2>
-                  <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
+                      <div className="card-image">
+                        <img src={ evento } loading="lazy" className="card-img" alt="" />
+                      </div>
+                    </span>
+                  </div>
+                  <div className="card-content">
+                    <h2 className="name">Main Title</h2>
+                    <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
 
-                  <button className="button">View More</button>
-                </div>
-          </SwiperSlide>
+                    <button className="button">View More</button>
+                  </div>
+            </SwiperSlide>
+            
+            <SwiperSlide className="card swiper-slide">
+                  <div className="image-content">
+                    <span className="img-overlay">
 
-          <SwiperSlide className="card swiper-slide">
-                <div className="image-content">
-                  <span className="img-overlay">
+                      <div className="card-image">
+                        <img src={ evento } loading="lazy" className="card-img" alt="" />
+                      </div>
+                    </span>
+                  </div>
+                  <div className="card-content">
+                    <h2 className="name">Main Title</h2>
+                    <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
 
-                    <div className="card-image">
-                      <img src={ evento } loading="lazy" className="card-img" alt="" />
-                    </div>
-                  </span>
-                </div>
-                <div className="card-content">
-                  <h2 className="name">Main Title</h2>
-                  <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, porro.</p>
-
-                  <button className="button">View More</button>
-                </div>
-          </SwiperSlide>
+                    <button className="button">View More</button>
+                  </div>
+            </SwiperSlide>
 
             <div class="swiper-button-next swiper-navBtn"></div>
             <div class="swiper-button-prev swiper-navBtn"></div>
