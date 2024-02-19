@@ -109,7 +109,7 @@
               transform: translateX(0);
             }
             100% {
-              transform: translateX(calc(17.5rem * 5));
+              transform: translateX(calc(-17.5rem * 5));
             }
           }
           .carousel {
@@ -119,6 +119,7 @@
             width: calc(17.5rem * 10);
             perspective: 100px;
             padding: 1rem;
+            // animation: scroll 40s linear infinite;
 
             
             .item {
@@ -131,12 +132,14 @@
               flex: none;
               transition: transform .3s;
               // border: 1px solid #000;
+              // width: calc(17.5rem * 10);
+              animation: scroll 40s linear infinite;
               
               &:hover {
                 display: flex;
                 flex-direction: column;
-                overflow: none;
-                z-index: 2;
+                // overflow: none;
+                // z-index: 2;
                 transform: translateZ(.6rem);
               }
 
